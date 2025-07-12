@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Playlist Creator</title>
+  <!-- Include Montserrat font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="backButton" onclick="window.location.href='https://adventuresinodyssey.fans/'">
+    Back to Main Page
+  </button>
+  <button id="modifyPlaylistButton">Modify Playlist</button>
+  <button id="images" onclick="window.open('https://adventuresinodyssey.fans/Images', '_blank')">
+    Images
+  </button>
+  <!-- Hidden file input for modifying a playlist -->
+  <input type="file" id="modifyFile" accept=".aiopl,.json,.txt">
+  
+  <h1>Playlist Creator</h1>
+  
+  <!-- Playlist Info -->
+  <div id="playlistInfo">
+    <input type="text" id="playlistName" placeholder="Playlist Name">
+    <input type="text" id="playlistImageURL" placeholder="Playlist Image URL">
+    <button id="copyPlaylistButton">Copy Playlist</button>
+    <button id="downloadPlaylistButton">Download .aiopl</button>
+  </div>
+  
+  <!-- Search Area -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for episodes (up to #1008) or paste an episode link">
+  </div>
+  
+  <!-- Selected Episodes -->
+  <div id="selectedEpisodesSection">
+    <div id="selectedEpisodesHeader">
+      <h3>Selected Episodes</h3>
+      <button id="copyNamesBtn">Copy Names</button>
+      <button id="copyHyperlinksBtn">Copy Hyperlinks</button>
+    </div>
+    <div id="selectedEpisodesContainer">
+      <!-- Each selected episode will be displayed here -->
+    </div>
+  </div>
+  
+  <!-- Results Container -->
+  <div class="results-container" id="resultsContainer">
+    <!-- Top 15 search results will appear here -->
+  </div>
+  
+  <div id="popup">Copied to clipboard!</div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
