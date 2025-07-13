@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+</div>
 <body>
   <button id="backButton" onclick="window.location.href='https://adventuresinodyssey.fans/'">
     Back to Main Page
@@ -19,13 +20,26 @@
   <input type="file" id="modifyFile" accept=".aiopl,.json,.txt">
   
   <h1>Playlist Creator</h1>
+
+  <div id="playlistPreview" class="playlist-container" style="display: none;">
+    <img id="playlistPreviewImage" src="" alt="Playlist Image">
+  
+    <div class="playlist-details" style="flex: 1; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+      <div>
+        <p id="playlistPreviewName"></p>
+        <p><strong>Episodes:</strong> <span id="playlistPreviewCount">0</span></p>
+      </div>
+      <div class="preview-button-group">
+        <button id="previewCopyBtn" class="preview-btn">Copy Playlist</button>
+        <button id="previewDownloadBtn" class="preview-btn">Download .aiopl</button>
+      </div>
+    </div>
+  </div>
   
   <!-- Playlist Info -->
   <div id="playlistInfo">
     <input type="text" id="playlistName" placeholder="Playlist Name">
     <input type="text" id="playlistImageURL" placeholder="Playlist Image URL">
-    <button id="copyPlaylistButton">Copy Playlist</button>
-    <button id="downloadPlaylistButton">Download .aiopl</button>
   </div>
   
   <!-- Search Area -->
@@ -35,15 +49,18 @@
   
   <!-- Selected Episodes -->
   <div id="selectedEpisodesSection">
-    <div id="selectedEpisodesHeader">
+    <div id="selectedEpisodesHeader" style="display: none;">
       <h3>Selected Episodes</h3>
       <button id="copyNamesBtn">Copy Names</button>
-      <button id="copyHyperlinksBtn">Copy Hyperlinks</button>
+      <button id="copyInlineLinksBtn">Copy Inline Links</button>
+      <button id="copyUrlsBtn">Copy Hyperlinks</button>
+      <button id="copyIdsBtn">Copy IDs</button>
     </div>
     <div id="selectedEpisodesContainer">
       <!-- Each selected episode will be displayed here -->
     </div>
   </div>
+  
   
   <!-- Results Container -->
   <div class="results-container" id="resultsContainer">

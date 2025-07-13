@@ -69,18 +69,6 @@ body {
     margin: 10px;
   }
   
-  #copyPlaylistButton,
-  #downloadPlaylistButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 5px;
-    border: 2px solid #fff;
-    background-color: transparent;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
   /* Selected Episodes Container */
   #selectedEpisodesSection {
     text-align: center;
@@ -100,7 +88,9 @@ body {
   }
   
   #copyNamesBtn,
-  #copyHyperlinksBtn {
+  #copyUrlsBtn,
+  #copyIdsBtn,
+  #copyInlineLinksBtn {
     padding: 8px 15px;
     font-size: 14px;
     border: 2px solid #fff;
@@ -118,6 +108,7 @@ body {
     margin: 0 auto;
     width: 60%;
     border-radius: 5px;
+    display: none;
   }
   
   .selected-episode {
@@ -133,6 +124,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     text-align: left;
+    flex: 1;
   }
   
   .selected-episode .episode-name:hover {
@@ -167,6 +159,68 @@ body {
     padding: 2px 6px;
     font-weight: bold;
     font-size: 14px;
+  }
+
+  .move-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-right: 10px;
+  }
+  
+  .move-group button {
+    width: 28px;      
+    height: 20px;
+    padding: 0;
+    font-size: 14px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .playlist-container {
+    background-color: #143776;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 860px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+  }
+  .playlist-container img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 8px;
+  }
+  .playlist-details {
+    flex: 1;
+    min-width: 200px;
+  }
+  .playlist-details p {
+    margin: 5px 0;
+  }
+  .preview-button-group {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  
+  .preview-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
   }
   
   /* Search container */
