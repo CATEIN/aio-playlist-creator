@@ -1,0 +1,1172 @@
+00	a354W0000046TjUQAU	#001: Whit's Flop
+01	a354W0000046TwmQAE	#001a: BONUS! Clip of Family Portraits episode - the show that inspired ...
+02	a354W0000046TwrQAE	#002: The Life of the Party
+03	a354W0000046TwwQAE	#003: Lights Out at Whit's End
+04	a354W0000046Tc0QAE	#004: Connie Comes to Town
+05	a354W0000046Tx1QAE	#004a: BONUS! Actress Katie Leigh on the creation of Connie
+06	a354W0000046Tx6QAE	#005: Gifts for Madge and Guy
+07	a354W0000046TxBQAU	#005a: BONUS! Officer Harley featurette
+08	a354W0000046TxGQAU	#006: The Day After Christmas
+09	a354W0000046TY7QAM	#007: Promises, Promises
+0a	a354W0000046TxLQAU	#008: Dental Dilemma
+0b	a354W0000046TxQQAU	#009: Doing Unto Others
+0c	a354W0000046TxVQAU	#010: Nothing to Fear
+0d	a354W0000046TxaQAE	#010a: BONUS! Naming John Avery Whittaker
+0e	a354W0000046TxfQAE	#011: Addictions Can Be Habit-Forming
+0f	a354W0000046TxkQAE	#012: The Tangled Web
+0g	a354W0000046TxpQAE	#013: Bobby's Valentine
+0h	a354W0000046TxuQAE	#014: Missed It By That Much
+0i	a354W0000046TxzQAE	#015: My Brother's Keeper
+0j	a354W0000046Ty4QAE	#016: No Stupid Questions
+0k	a354W0000046Ty9QAE	#017: A Member of the Family, Part 1 of 2
+0l	a354W0000046TyEQAU	#018: A Member of the Family, Part 2 of 2
+0m	a354W0000046TyJQAU	#018a: BONUS! Paul McCusker talks about Whit's family
+0n	a354W0000046TyOQAU	#019: Recollections
+0o	a354W0000046TyTQAU	#020: Mike Makes Right
+0p	a354W0000046TyYQAU	#021: The Case of the Missing Train Car
+0q	a354W0000046TydQAE	#022: A Simple Addition
+0r	a354W0000046TyiQAE	#023: The Quality of Mercy
+0s	a354W0000046TynQAE	#024: Gotcha!
+0t	a354W0000046Tn2QAE	#025: Harley Takes the Case, Part 1 of 2
+0u	a354W0000046TysQAE	#026: Harley Takes the Case, Part 2 of 2
+0v	a354W0000046TyxQAE	#027: A Change of Hart
+0w	a354W0000046Tz2QAE	#028: The Price of Freedom
+0x	a354W0000046Tz7QAE	#029: Rumor Has It
+0y	a354W0000046TzCQAU	#030: Honor Thy Parents
+0z	a354W0000046TzHQAU	#031: Family Vacation, Part 1 of 2
+0A	a354W0000046TzMQAU	#032: Family Vacation, Part 2 of 2
+0B	a354W0000046TzRQAU	#032a: BONUS! How the Barclay family got their name
+0C	a354W0000046TzWQAU	#033: The Day Independence Came
+0D	a354W0000046TyUQAU	#034: Stormy Weather
+0E	a354W0000046TzbQAE	#034a: BONUS! Chris answers your questions
+0F	a354W0000046TzgQAE	#035: V.B.S. Blues
+0G	a354W0000046TzlQAE	#036: Kids' Radio
+0H	a354W0000046TzqQAE	#036a: BONUS! The creation of Kids' Radio
+0I	a354W0000046U00QAE	#037: Camp What-a-Nut, Part 1 of 2
+0J	a354W0000046U05QAE	#038: Camp What-a-Nut, Part 2 of 2
+0K	a354W0000046U0AQAU	#039: The Case of the Secret Room, Part 1 of 2
+0L	a354W0000046U0FQAU	#040: The Case of the Secret Room, Part 2 of 2
+0M	a354W0000046U0KQAU	#041: Return to the Bible Room
+0N	a354W0000046Ty0QAE	#041a: BONUS! Chris answers more of your questions
+0O	a354W0000046U0PQAU	#042: The Last Great Adventure of the Summer
+0P	a354W0000046U0UQAU	#042a: BONUS! A collection of great sound moments from the show
+0Q	a354W0000046U0ZQAU	#043: Back to School
+0R	a354W0000046U0eQAE	#044: It Sure Seems Like It to Me
+0S	a354W0000046U0jQAE	#045: What Are We Gonna Do About Halloween?
+0T	a354W0000046U0oQAE	#046: The Shepherd and the Giant
+0U	a354W0000046U0tQAE	#047: A Single Vote
+0V	a354W0000046U0yQAE	#047a: BONUS! The many voices of Bob Luttrell
+0W	a354W0000046TrYQAU	#048: Heroes
+0X	a354W0000046U13QAE	#049: Thank You, God
+0Y	a354W0000046Ty1QAE	#050: Karen
+0Z	a354W0000046U18QAE	#051: Connie, Part 1 of 2
+10	a354W0000046U1DQAU	#052: Connie, Part 2 of 2
+11	a354W0000046U1IQAU	#052a: BONUS! The creation of Eugene Meltsner
+12	a354W0000046U1NQAU	#052b: BONUS! How is actress Katie Leigh like Connie
+13	a354W0000046U1SQAU	#053: The Sacred Trust
+14	a354W0000046U1XQAU	#054: Peace on Earth
+15	a354W0000046U1cQAE	#054a: BONUS! The inspiration for Peace on Earth
+16	a354W0000046U1hQAE	#055: Auld Lang Syne
+17	a354W0000046U1mQAE	#056: By Faith, Noah
+18	a354W0000046U1rQAE	#056a: BONUS! The many voices of actor Walker Edmiston
+19	a354W0000046U1wQAE	#057: The Prodigal, Jimmy
+1a	a354W0000046U21QAE	#057a: BONUS! The creation of Rodney Rathbone
+1b	a354W0000046U26QAE	#058: A Matter of Obedience
+1c	a354W0000046U2BQAU	#059: A Worker Approved
+1d	a354W0000046U2GQAU	#060: And When You Pray. . .
+1e	a354W0000046U2LQAU	#060a: BONUS! How David Griffin (Jimmy Barclay) got his start
+1f	a354W0000046U2QQAU	#061: The Boy Who Didn't Go To Church
+1g	a354W0000046U2VQAU	#062: Let This Mind Be in You
+1h	a354W0000046U2aQAE	#063: A Good and Faithful Servant
+1i	a354W0000046U2fQAE	#063a: BONUS! The comic foils of Adventures in Odyssey
+1j	a354W0000046U2kQAE	#064: The Greatest of These
+1k	a354W0000046U2pQAE	#065: Bad Company
+1l	a354W0000046U2uQAE	#066: The Imagination Station, Part 1 of 2
+1m	a354W0000046TzwQAE	#067: The Imagination Station, Part 2 of 2
+1n	a354W0000046TzSQAU	#067a: BONUS! The creation of the Imagination Station
+1o	a354W0000046U2zQAE	#068: Choices
+1p	a354W0000046U34QAE	#069: Go Ye Therefore
+1q	a354W0000046U39QAE	#070: The Return of Harley, Part 1 of 2
+1r	a354W0000046U3EQAU	#071: The Return of Harley, Part 2 of 2
+1s	a354W0000046U0QQAU	#072: An Encounter with Mrs. Hooper
+1t	a354W0000046U27QAE	#073: A Bite of Applesauce
+1u	a354W0000046U3JQAU	#073a: BONUS! The inspiration for "A Bite of Applesauce"
+1v	a354W0000046U3OQAU	#074: Connie Goes to Camp, Part 1 of 2
+1w	a354W0000046U3TQAU	#075: Connie Goes to Camp, Part 2 of 2
+1x	a354W0000046U3YQAU	#076: Eugene's Dilemma
+1y	a354W0000046U3dQAE	#077: The Nemesis, Part 1 of 2
+1z	a354W0000046U3iQAE	#078: The Nemesis, Part 2 of 2
+1A	a354W0000046U3nQAE	#078a: BONUS! Dr. Blackgaard comes to town
+1B	a354W0000046U3sQAE	#079: Our Best Vacation Ever
+1C	a354W0000046U3xQAE	#079a: BONUS! The story behind "Our Best Vacation Ever"
+1D	a354W0000046U42QAE	#080: A Prisoner for Christ
+1E	a354W0000046U47QAE	#081: Good Business
+1F	a354W0000046U4CQAU	#082: Heatwave
+1G	a354W0000046U4HQAU	#083: The Battle, Part 1 of 2
+1H	a354W0000046U4MQAU	#084: The Battle, Part 2 of 2
+1I	a354W0000046U4RQAU	#086: Isaac the Insecure
+1J	a354W0000046Ty5QAE	#087: Elijah, Part 1 of 2
+1K	a354W0000046U4WQAU	#088: Elijah, Part 2 of 2
+1L	a354W0000046U4bQAE	#088a: BONUS! Creating the sounds for "Elijah"
+1M	a354W0000046U4gQAE	#089: That's Not Fair!
+1N	a354W0000046TxWQAU	#090: But, You Promised
+1O	a354W0000046U4lQAE	#091: A Mission for Jimmy
+1P	a354W0000046U4qQAE	#091a: BONUS! The production of "A Mission for Jimmy"
+1Q	a354W0000046U4vQAE	#092: The Ill-Gotten Deed
+1R	a354W0000046U50QAE	#092a: BONUS! The voices of host Chris Anthony, featuring studio bloopers
+1S	a354W0000046TjVQAU	#093: Rescue from Manatugo Point
+1T	a354W0000046U55QAE	#094: Operation: Dig-Out
+1U	a354W0000046U5AQAU	#095: The Very Best of Friends
+1V	a354W0000046U5FQAU	#096: The Reluctant Rival
+1W	a354W0000046U5KQAU	#097: Monty's Christmas
+1X	a354W0000046TwxQAE	#098: The Visitors
+1Y	a354W0000046U5PQAU	#099: The Barclay Family Ski Vacation
+1Z	a354W0000046U5UQAU	#100: Ice Fishing
+20	a354W0000046U5ZQAU	#100a: BONUS! The story of writer Campbell Freed
+21	a354W0000046U5eQAE	#101: Scattered Seeds
+22	a354W0000046U5jQAE	#101a: BONUS! Bloopers from the studio
+23	a354W0000046U5oQAE	#102: The Treasure of LeMonde!
+24	a354W0000046U5tQAE	#102a: BONUS! The very first Focus dramas - Spare Tire & House Guest
+25	a354W0000046U5yQAE	#102b: BONUS! Spare Tire
+26	a354W0000046U63QAE	#102c: BONUS! House Guest
+27	a354W0000046U68QAE	#103: Front Page News
+28	a354W0000046U6DQAU	#104: Lincoln, Part 1 of 2
+29	a354W0000046U4XQAU	#105: Lincoln, Part 2 of 2
+2a	a354W0000046U6IQAU	#106: By Any Other Name
+2b	a354W0000046U6NQAU	#106a: BONUS! The creation of Bernard Walton
+2c	a354W0000046U6SQAU	#107: Bad Luck
+2d	a354W0000046U6XQAU	#108: Isaac the Courageous
+2e	a354W0000046U6cQAE	#109: Two Sides to Every Story
+2f	a354W0000046U1dQAE	#110: A...is for Attitude
+2g	a354W0000046U6hQAE	#111: First Love
+2h	a354W0000046U6mQAE	#111a: BONUS! Connie's loves
+2i	a354W0000046U6rQAE	#112: Curious, Isn't It?
+2j	a354W0000046TjWQAU	#113: Suspicious Minds
+2k	a354W0000046U4rQAE	#114: The Big Broadcast
+2l	a354W0000046U6wQAE	#115: An Act of Mercy
+2m	a354W0000046Tx2QAE	#116: Isaac the Benevolent
+2n	a354W0000046U71QAE	#117: The Trouble With Girls
+2o	a354W0000046U76QAE	#118: What Happened to the Silver Streak?
+2p	a354W0000046U7BQAU	#119: Better Late than Never
+2q	a354W0000046U6OQAU	#120: Pranks for the Memories
+2r	a354W0000046U7GQAU	#120a: BONUS! A scene from a never before heard episode - Backwoods Jacobs
+2s	a354W0000046U7LQAU	#121: Missing Person
+2t	a354W0000046U7QQAU	#122: Castles & Cauldrons, Part 1 of 2
+2u	a354W0000046U7VQAU	#123: Castles & Cauldrons, Part 2 of 2
+2v	a354W0000046U7aQAE	#124: The Winning Edge
+2w	a354W0000046U7fQAE	#124a: BONUS! The creation of Bart Rathbone
+2x	a354W0000046U7kQAE	#125: All's Well With Boswell
+2y	a354W0000046U7pQAE	#126: Wishful Thinking
+2z	a354W0000046U7uQAE	#127: Have You No Selpurcs?
+2A	a354W0000046U7zQAE	#128: One Bad Apple
+2B	a354W0000046U84QAE	#129: Not One of Us
+2C	a354W0000046U2CQAU	#130: Bernard & Joseph, Part 1 of 2
+2D	a354W0000046U89QAE	#131: Bernard & Joseph, Part 2 of 2
+2E	a354W0000046U8EQAU	#131a: BONUS! Intro to "Whit's Visitor"
+2F	a354W0000046U8JQAU	#131b: BONUS! Whit's Visitor
+2G	a354W0000046U8OQAU	#132: Thanksgiving at Home
+2H	a354W0000046U8TQAU	#133: Cousin Albert
+2I	a354W0000046U8YQAU	#134: Pamela Has a Problem
+2J	a354W0000046U8dQAE	#135: Back to Bethlehem, Part 1 of 3
+2K	a354W0000046U8iQAE	#136: Back to Bethlehem, Part 2 of 3
+2L	a354W0000046U8nQAE	#137: Back to Bethlehem, Part 3 of 3
+2M	a354W0000046U8sQAE	#137a: BONUS! Intro to "Gone Fishing"
+2N	a354W0000046U8xQAE	#137b: BONUS! Gone Fishing
+2O	a354W0000046U92QAE	#138: The Adventure of the Adventure
+2P	a354W0000046U97QAE	#139: Melanie's Diary
+2Q	a354W0000046U6sQAE	#139a: BONUS! Who are the Jacobs girls?
+2R	a354W0000046U9CQAU	#140: The Vow
+2S	a354W0000046U9HQAU	#141: Over the Airwaves
+2T	a354W0000046U80QAE	#141a: BONUS! Recording "Live at the 25"
+2U	a354W0000046U9MQAU	#142: Train Ride
+2V	a354W0000046U9RQAU	#143: Muckraker
+2W	a354W0000046Yh4QAE	#144: Someone to Watch Over Me
+2X	a354W0000046U2qQAE	#145: The Second Coming
+2Y	a354W0000046U1JQAU	#146: Emotional Baggage
+2Z	a354W0000046U9bQAE	#147: Where There's a Will. . .
+30	a354W0000046U5fQAE	#148: Isaac the Procrastinator
+31	a354W0000046U9gQAE	#148a: BONUS! Kids who played other roles
+32	a354W0000046U98QAE	#149: By Dawn's Early Light
+33	a354W0000046U9lQAE	#149a: BONUS! Interview with Phil Lollar about "By Dawn's Early Light"
+34	a354W0000046U9qQAE	#150: Home is Where the Hurt Is
+35	a354W0000046U9vQAE	#151: . . . The Last Shall Be First
+36	a354W0000046UA0QAM	#152: The Meaning of Sacrifice
+37	a354W0000046UA5QAM	#152a: BONUS! Live Q & A with the actors
+38	a354W0000046UAAQA2	#153: Mayor for a Day
+39	a354W0000046UAFQA2	#154: Coming of Age
+3a	a354W0000046UAKQA2	#154a: BONUS! Cast and crew interviews about the story behind "Coming of Age"
+3b	a354W0000046UAPQA2	#155: Waylaid in the Windy City, Part 1 of 2
+3c	a354W0000046UAUQA2	#156: Waylaid in the Windy City, Part 2 of 2
+3d	a354W0000046UAZQA2	#156a: BONUS! Paul McCusker talks about the writing of "Waylaid in the Windy City"
+3e	a354W0000046U8FQAU	#157: Last in a Long Line
+3f	a354W0000046UAeQAM	#158: A Day in the Life
+3g	a354W0000046U56QAE	#159: The Homecoming
+3h	a354W0000046U5BQAU	#160: A Rathbone of Contention
+3i	a354W0000046UAjQAM	#161: Isaac the True Friend
+3j	a354W0000046UAoQAM	#162: Peacemaker
+3k	a354W0000046UAtQAM	#163: A Model Child
+3l	a354W0000046UAyQAM	#164: Sixties-Something
+3m	a354W0000046UB3QAM	#165: Bernard and Esther, Part 1 of 2
+3n	a354W0000046U6JQAU	#166: Bernard and Esther, Part 2 of 2
+3o	a354W0000046UB8QAM	#167: Dobson Comes to Town
+3p	a354W0000046UBDQA2	#167a: BONUS! The creation of "Dobson Comes to Town"
+3q	a354W0000046U4wQAE	#168: The Curse
+3r	a354W0000046U9XQAU	#168a: BONUS! Oops! Script mistakes
+3s	a354W0000046UBIQA2	#169: Hold Up!
+3t	a354W0000046UBNQA2	#169a: BONUS! Odyssey villains
+3u	a354W0000046U0BQAU	#170: A Test for Robyn
+3v	a354W0000046UBSQA2	#171: The Cross of Cortes, Part 1 of 2
+3w	a354W0000046UBXQA2	#172: The Cross of Cortes, Part 2 of 2
+3x	a354W0000046UBcQAM	#173: A Thanksgiving Carol
+3y	a354W0000046UBhQAM	#174: Where's Your Daddy?
+3z	a354W0000046UBmQAM	#175: East Winds, Raining
+3A	a354W0000046TyKQAU	#175a: BONUS! The creation of "East Winds, Raining"
+3B	a354W0000046UBrQAM	#176: The Star, Part 1 of 2
+3C	a354W0000046U9YQAU	#177: The Star, Part 2 of 2
+3D	a354W0000046UBwQAM	#178: Room Mates
+3E	a354W0000046UC1QAM	#178a: BONUS! Original promo spot for "At Home and Abroad"
+3F	a354W0000046UC6QAM	#179: You Gotta Be Wise
+3G	a354W0000046UCBQA2	#179a: BONUS! The creation of the Adventures in Odyssey theme song
+3H	a354W0000046UCGQA2	#180: Isaac the Pure
+3I	a354W0000046UCLQA2	#181: It Takes Integrity
+3J	a354W0000046UCQQA2	#182: The Scales of Justice
+3K	a354W0000046UCVQA2	#182a: BONUS! AIO Time Filler Features
+3L	a354W0000046TquQAE	#182b: BONUS! Super Sleuth - Your Skin
+3M	a354W0000046UCaQAM	#182c: BONUS! Mr. How-To - The House Built on Sand
+3N	a354W0000046UCfQAM	#182d: BONUS! Ancient World of Sports - Gideon's Pitch
+3O	a354W0000046UCkQAM	#182e: BONUS! Apostle Paul - Paul, Apostle Paul
+3P	a354W0000046UCpQAM	#182f: BONUS! Apostle Paul - Armed and Ready
+3Q	a354W0000046U7lQAE	#182g: BONUS! And You Think You've Got Problems - Solomon
+3R	a354W0000046UCuQAM	#182h: BONUS! And You Think You've Got Problems - Josiah
+3S	a354W0000046UCzQAM	#182i: BONUS! And You Think You've Got Problems - Daniel
+3T	a354W0000046TqkQAE	#182j: BONUS! Fairy Tale Action News - Humpty Dumpty
+3U	a354W0000046UD4QAM	#183: Tales of Moderation
+3V	a354W0000046UD9QAM	#184: Isaac the Chivalrous
+3W	a354W0000046UDEQA2	#184a: BONUS! The music of "Isaac the Chivalrous
+3X	a354W0000046UDJQA2	#185: A Question of Loyalty
+3Y	a354W0000046UDOQA2	#186: The Conscientious Cross-Guard
+3Z	a354W0000046UDTQA2	#187: An Act of Nobility
+40	a354W0000046UDYQA2	#188: The Courage to Stand
+41	a354W0000046UDdQAM	#189: No, Honestly!
+42	a354W0000046UDiQAM	#190: Moses, the Passover, Part 1 of 2
+43	a354W0000046UDnQAM	#191: Moses, the Passover, Part 2 of 2
+44	a354W0000046UDsQAM	#192: Modesty is the Best Policy
+45	a354W0000046UDxQAM	#193: A Tongue of Fire
+46	a354W0000046UE2QAM	#193a: BONUS! The creation of Cryin' Bryan Dern
+47	a354W0000046Tc1QAE	#194: A License to Drive
+48	a354W0000046UA1QAM	#194a: BONUS! Behind the scenes of "A License to Drive"
+49	a354W0000046UE7QAM	#195: Father's Day
+4a	a354W0000046TsbQAE	#195a: BONUS! All about "The Letter"
+4b	a354W0000046UECQA2	#195b: BONUS! The Letter
+4c	a354W0000046UEHQA2	#196: Harlow Doyle, Private Eye
+4d	a354W0000046UEMQA2	#196a: BONUS! The creation of Harlow Doyle
+4e	a354W0000046UERQA2	#197: The Midnight Ride
+4f	a354W0000046UDAQA2	#198: Treasure Hunt
+4g	a354W0000046UEWQA2	#198a: BONUS! Controversial Adventures in Odyssey episodes
+4h	a354W0000046UEbQAM	#199: The "No" Factor
+4i	a354W0000046UEgQAM	#200: Feud for Thought
+4j	a354W0000046UElQAM	#201: Fair-Weather Fans
+4k	a354W0000046UEqQAM	#202: Timmy's Cabin
+4l	a354W0000046UEvQAM	#203: Double Trouble
+4m	a354W0000046UF0QAM	#203a: BONUS! The creation of Edwin and Shakespeare
+4n	a354W0000046UF5QAM	#204: Wonderworld
+4o	a354W0000046U4mQAE	#205: Flash Flood
+4p	a354W0000046UFAQA2	#205a: BONUS! Paul Herlinger's audition as Whit
+4q	a354W0000046TzhQAE	#206: Pen Pal
+4r	a354W0000046UFFQA2	#207: The Case of the Candid Camera
+4s	a354W0000046UFKQA2	#208: Pipe Dreams
+4t	a354W0000046UFPQA2	#208a: BONUS! Deleted scene from "Pipe Dreams"
+4u	a354W0000046UFUQA2	#209: Columbus: The Grand Voyage
+4v	a354W0000046UFZQA2	#210: On Solid Ground
+4w	a354W0000046U81QAE	#211: The Mortal Coil, Part 1 of 2
+4x	a354W0000046UFeQAM	#212: The Mortal Coil, Part 2 of 2
+4y	a354W0000046UFjQAM	#213: Best Intentions
+4z	a354W0000046UFoQAM	#214: The Living Nativity
+4A	a354W0000046UFtQAM	#215: Caroling, Caroling
+4B	a354W0000046UFyQAM	#216: Like Father, Like Son
+4C	a354W0000046UG3QAM	#217: Rights, Wrongs, and Reasons
+4D	a354W0000046UG8QAM	#218: A Class Act
+4E	a354W0000046UGDQA2	#219: Treasures of the Heart
+4F	a354W0000046UEXQA2	#220: This is Chad Pearson?
+4G	a354W0000046UGIQA2	#221: It Is Well
+4H	a354W0000046UGNQA2	#222: The Jesus Cloth
+4I	a354W0000046UGSQA2	#223: Real Time
+4J	a354W0000046UGXQA2	#223a: BONUS! Behind the scenes of "Real Time"
+4K	a354W0000046UGcQAM	#224: Greater Love
+4L	a354W0000046UGhQAM	#225: Count It All Joy
+4M	a354W0000046UGmQAM	#226: An Adventure in Bethany, Part 1 of 2
+4N	a354W0000046UGrQAM	#227: An Adventure in Bethany, Part 2 of 2
+4O	a354W0000046UGwQAM	#228: A Game of Compassion
+4P	a354W0000046UH1QAM	#229: The Marriage Feast
+4Q	a354W0000046UH6QAM	#230: Our Father
+4R	a354W0000046UHBQA2	#231: Hallowed Be Thy Name
+4S	a354W0000046UHGQA2	#232: Thy Kingdom Come
+4T	a354W0000046UHLQA2	#233: Thy Will Be Done
+4U	a354W0000046UHQQA2	#234: Our Daily Bread
+4V	a354W0000046UESQA2	#235: Forgive Us as We Forgive
+4W	a354W0000046UHVQA2	#236: Into Temptation
+4X	a354W0000046UHaQAM	#237: Deliver Us From Evil
+4Y	a354W0000046UHfQAM	#238: For Thine is the Kingdom
+4Z	a354W0000046UHkQAM	#239: The Power
+50	a354W0000046UHpQAM	#240: And the Glory
+51	a354W0000046UHuQAM	#241: Forever. . .Amen
+52	a354W0000046UHzQAM	#242: Hymn Writers
+53	a354W0000046UI4QAM	#243: Family Values
+54	a354W0000046U7RQAU	#244: The Mysterious Stranger, Part 1 of 2
+55	a354W0000046UI9QAM	#245: The Mysterious Stranger, Part 2 of 2
+56	a354W0000046UIEQA2	#246: My Fair Bernard
+57	a354W0000046UIJQA2	#247: Why Don't You Grow Up?
+58	a354W0000046UIOQA2	#248: Terror from the Skies
+59	a354W0000046UITQA2	#249: The Case of the Delinquent Disciples
+5a	a354W0000046SCtQAM	#250: Pilgrim's Progress Revisited, Part 1 of 2
+5b	a354W0000046UIYQA2	#251: Pilgrim's Progress Revisited, Part 2 of 2
+5c	a354W0000046UIdQAM	#252: The Bad Hair Day
+5d	a354W0000046UIiQAM	#253: A Time for Christmas
+5e	a354W0000046UInQAM	#254: Truth, Trivia, and 'Trina
+5f	a354W0000046UIsQAM	#255: The Boy Who Cried "Destructo!"
+5g	a354W0000046UIxQAM	#256: Aloha, Oy!, Part 1 of 3
+5h	a354W0000046UJ2QAM	#257: Aloha, Oy!, Part 2 of 3
+5i	a354W0000046UETQA2	#258: Aloha, Oy!, Part 3 of 3
+5j	a354W0000046U6KQAU	#259: The Potential in Elliot
+5k	a354W0000046U9DQAU	#260: Naturally, I Assumed
+5l	a354W0000046U3tQAE	#261: Afraid, Not!
+5m	a354W0000046UJ7QAM	#262: A Prayer for George Barclay
+5n	a354W0000046UJCQA2	#263: When Bad Isn't So Good
+5o	a354W0000046UJHQA2	#264: Making the Grade
+5p	a354W0000046UJMQA2	#265: War of the Words
+5q	a354W0000046UJRQA2	#266: It Began with a Rabbit's Foot
+5r	a354W0000046UJWQA2	#267: It Ended with a Handshake
+5s	a354W0000046UJDQA2	#268: Pet Peeves
+5t	a354W0000046UJbQAM	#269: Fences
+5u	a354W0000046U8yQAE	#270: The War Hero
+5v	a354W0000046U93QAE	#271: The Secret Keys of Discipline
+5w	a354W0000046UJgQAM	#272: Two Brothers and Bernard, Part 1 of 2
+5x	a354W0000046UJlQAM	#273: Two Brothers and Bernard, Part 2 of 2
+5y	a354W0000046TjPQAU	#274: First-Hand Experience
+5z	a354W0000046UJqQAM	#275: Second Thoughts
+5A	a354W0000046U9NQAU	#276: Third Degree
+5B	a354W0000046UJvQAM	#277: It Happened at Four Corners
+5C	a354W0000046UK0QAM	#278: The Fifth House on the Left, Part 1 of 2
+5D	a354W0000046UK5QAM	#279: The Fifth House on the Left, Part 2 of 2
+5E	a354W0000046UKAQA2	#280: Gone . . .
+5F	a354W0000046UKFQA2	#281: . . . But Not Forgotten
+5G	a354W0000046UKKQA2	#282: The Fundamentals
+5H	a354W0000046UIeQAM	#283: A Book by Its Cover
+5I	a354W0000046UKPQA2	#284: The Election Deception
+5J	a354W0000046UDZQA2	#285: George Under Pressure
+5K	a354W0000046U7SQAU	#286: Tom for Mayor, Part 1 of 2
+5L	a354W0000046UDeQAM	#287: Tom for Mayor, Part 2 of 2
+5M	a354W0000046UKUQA2	#288: The Twilife Zone
+5N	a354W0000046UKZQA2	#289: A Call for Reverend Jimmy
+5O	a354W0000046UH7QAM	#290: A Name, Not a Number, Part 1 of 2
+5P	a354W0000046UKeQAM	#291: A Name, Not a Number, Part 2 of 2
+5Q	a354W0000046UKjQAM	#292: Siege at Jericho
+5R	a354W0000046UKoQAM	#293: A Code of Honor
+5S	a354W0000046UKtQAM	#294: Unto Us a Child Is Born
+5T	a354W0000046UKyQAM	#295: Soaplessly Devoted
+5U	a354W0000046UL3QAM	#296: Red Wagons and Pink Flamingos
+5V	a354W0000046UL8QAM	#297: Blackbeard's Treasure
+5W	a354W0000046UIPQA2	#298: I Want My B-TV!
+5X	a354W0000046UF6QAM	#299: The Truth About Zachary
+5Y	a354W0000046U7MQAU	#300: Preacher's Kid
+5Z	a354W0000046ULDQA2	#301: The Good, the Bad & Butch
+60	a354W0000046UAVQA2	#302: Share & Share Alike
+61	a354W0000046ULIQA2	#303: All the Difference in the World
+62	a354W0000046ULNQA2	#304: Saint Paul:  The Man from Tarsus
+63	a354W0000046ULSQA2	#305: Saint Paul: Set Apart by God
+64	a354W0000046UDfQAM	#306: A Victim of Circumstance
+65	a354W0000046ULXQA2	#307: Poetry in Slow Motion
+66	a354W0000046ULcQAM	#308: Subject Yourself
+67	a354W0000046ULhQAM	#309: The Perfect Witness, Part 1 of 3
+68	a354W0000046TxgQAE	#310: The Perfect Witness, Part 2 of 3
+69	a354W0000046ULmQAM	#311: The Perfect Witness, Part 3 of 3
+6a	a354W0000046ULrQAM	#312: Rewards in Full
+6b	a354W0000046ULwQAM	#313: Top This!
+6c	a354W0000046Ty6QAE	#314: The Underground Railroad, Part 1 of 3
+6d	a354W0000046TryQAE	#315: The Underground Railroad, Part 2 of 3
+6e	a354W0000046UM1QAM	#316: The Underground Railroad, Part 3 of 3
+6f	a354W0000046UM2QAM	#317: B-TV: Envy
+6g	a354W0000046UM6QAM	#318: A Touch of Healing, Part 1 of 2
+6h	a354W0000046UMBQA2	#319: A Touch of Healing, Part 2 of 2
+6i	a354W0000046UFpQAM	#320: Where Is Thy Sting?
+6j	a354W0000046UMGQA2	#321: Hidden In My Heart
+6k	a354W0000046UMLQA2	#322: The Turning Point
+6l	a354W0000046U01QAE	#323: A Little Credit, Please
+6m	a354W0000046UMQQA2	#324: Small Fires, Little Pools
+6n	a354W0000046UMVQA2	#325: Angels Unaware
+6o	a354W0000046UMaQAM	#326: Gathering Thunder
+6p	a354W0000046U9cQAE	#327: Moving Targets
+6q	a354W0000046UMfQAM	#328: Hard Losses
+6r	a354W0000046UIAQA2	#329: The Return
+6s	a354W0000046UMkQAM	#330: The Time Has Come
+6t	a354W0000046UMpQAM	#331: Checkmate
+6u	a354W0000046TxHQAU	#332: Another Chance
+6v	a354W0000046UMuQAM	#333: The Last Resort
+6w	a354W0000046UMzQAM	#334: The Final Conflict
+6x	a354W0000046UN4QAM	#335: Love Is in the Air, Part 1 of 2
+6y	a354W0000046UN9QAM	#336: Love Is in the Air, Part 2 of 2
+6z	a354W0000046U85QAE	#337: W-O-R-R-Y
+6A	a354W0000046UJEQA2	#338: Easy Money
+6B	a354W0000046UNEQA2	#339: Do, for a Change
+6C	a354W0000046UNJQA2	#340: Pokenberry Falls, R.F.D., Part 1 of 2
+6D	a354W0000046UNOQA2	#341: Pokenberry Falls, R.F.D., Part 2 of 2
+6E	a354W0000046U1nQAE	#342: Welcome Home, Mr. Blackgaard
+6F	a354W0000046UNTQA2	#343: The Pretty Good Samaritan
+6G	a354W0000046UNYQA2	#344: Letting Go
+6H	a354W0000046UNdQAM	#345: B-TV: Compassion
+6I	a354W0000046UNiQAM	#346: Saint Paul: Voyage to Rome
+6J	a354W0000046UNeQAM	#347: Saint Paul:  An Appointment with Caesar
+6K	a354W0000046UNnQAM	#348: With a Little Help from My Friends
+6L	a354W0000046UNsQAM	#349: Blessings in Disguise
+6M	a354W0000046U8jQAE	#350: The Time of Our Lives
+6N	a354W0000046UNxQAM	#351: What Are You Gonna Do with Your Life?
+6O	a354W0000046UFfQAM	#352: Memories of Jerry
+6P	a354W0000046UDjQAM	#353: A Question About Tasha
+6Q	a354W0000046UO2QAM	#354: Blind Justice
+6R	a354W0000046UO7QAM	#355: The Search for Whit, Part 1 of 3
+6S	a354W0000046UOCQA2	#356: The Search for Whit, Part 2 of 3
+6T	a354W0000046UOHQA2	#357: The Search for Whit, Part 3 of 3
+6U	a354W0000046UOMQA2	#358: The Secret Weapon
+6V	a354W0000046UORQA2	#359: The Merchant of Odyssey
+6W	a354W0000046UOWQA2	#360: Three Funerals and a Wedding, Part 1 of 2
+6X	a354W0000046UObQAM	#361: Three Funerals and a Wedding, Part 2 of 2
+6Y	a354W0000046TwsQAE	#362: The Right Choice, Part 1 of 2
+6Z	a354W0000046UOgQAM	#363: The Right Choice, Part 2 of 2
+70	a354W0000046UOlQAM	#364: Home, Sweet Home
+71	a354W0000046UOqQAM	#365: Clara
+72	a354W0000046UMvQAM	#366: Solitary Refinement
+73	a354W0000046UOvQAM	#367: The Decision
+74	a354W0000046UP0QAM	#368: The Other Woman
+75	a354W0000046UP5QAM	#369: It's a Wrap!
+76	a354W0000046UPAQA2	#372: For Whom the Wedding Bells Toll, Part 1 of 3
+77	a354W0000046UPFQA2	#373: For Whom the Wedding Bells Toll, Part 2 of 3
+78	a354W0000046UMWQA2	#374: For Whom the Wedding Bells Toll, Part 3 of 3
+79	a354W0000046UPKQA2	#375: The Pushover
+7a	a354W0000046UPPQA2	#376: Chores No More
+7b	a354W0000046UPUQA2	#377: Just Say Yes
+7c	a354W0000046UPZQA2	#378: The Painting
+7d	a354W0000046UPeQAM	#379: Best Face Forward
+7e	a354W0000046UPjQAM	#380: The One About Trust, Part 1 of 2
+7f	a354W0000046UPoQAM	#381: The One About Trust, Part 2 of 2
+7g	a354W0000046UNyQAM	#382: Viva La Difference
+7h	a354W0000046UPtQAM	#383: B-TV: Thanks
+7i	a354W0000046U02QAE	#384: Amazing Grace
+7j	a354W0000046Tx3QAE	#385: It's a Pokenberry Christmas, Part 1 of 2
+7k	a354W0000046UPyQAM	#386: It's a Pokenberry Christmas, Part 2 of 2
+7l	a354W0000046UQ3QAM	#387: New Years Eve Live!
+7m	a354W0000046UQ8QAM	#388: Leap of Faith
+7n	a354W0000046UQDQA2	#389: OT Action News: Jephthah's Vow
+7o	a354W0000046UBiQAM	#390: No Bones About It
+7p	a354W0000046UJNQA2	#391: The Joke's on You
+7q	a354W0000046UQIQA2	#392: When in Doubt...Pray!
+7r	a354W0000046UQNQA2	#393: Wrapped Around Your Finger
+7s	a354W0000046UQSQA2	#394: Saint Patrick:  A Heart Afire, Part 1 of 2
+7t	a354W0000046UQXQA2	#395: Saint Patrick:  A Heart Afire, Part 2 of 2
+7u	a354W0000046UQcQAM	#396: Poor Loser
+7v	a354W0000046UQhQAM	#397: Tornado!
+7w	a354W0000046UCWQA2	#398: A Case of Revenge
+7x	a354W0000046UQmQAM	#399: Bernard and Job
+7y	a354W0000046UQrQAM	#400: The Spy Who Bugged Me
+7z	a354W0000046U2rQAE	#401: More Like Alicia
+7A	a354W0000046UQwQAM	#402: Arizona Sunrise
+7B	a354W0000046UI5QAM	#403: Faster Than a Speeding Ticket
+7C	a354W0000046UDgQAM	#404: Hide and Seek
+7D	a354W0000046ULJQA2	#405: The Graduate
+7E	a354W0000046UR1QAM	#406: Malachi's Message, Part 1 of 3
+7F	a354W0000046UR6QAM	#407: Malachi's Message, Part 2 of 3
+7G	a354W0000046URBQA2	#408: Malachi's Message, Part 3 of 3
+7H	a354W0000046URGQA2	#409: Natural Born Leader
+7I	a354W0000046URLQA2	#410: B-TV: Forgiveness
+7J	a354W0000046URQQA2	#411: In All Things Give Thanks
+7K	a354W0000046URVQA2	#412: A Lesson From Mike
+7L	a354W0000046URaQAM	#413: The Devil Made Me Do It
+7M	a354W0000046TzXQAU	#414: Buried Sin
+7N	a354W0000046URfQAM	#415: Gloobers!
+7O	a354W0000046URkQAM	#416: The Tower
+7P	a354W0000046URpQAM	#417: Not-So-Trivial Pursuits
+7Q	a354W0000046U03QAE	#418: Opening Day
+7R	a354W0000046U6dQAE	#419: Another Man's Shoes
+7S	a354W0000046URuQAM	#420: Telemachus, Part 1 of 2
+7T	a354W0000046URzQAM	#421: Telemachus, Part 2 of 2
+7U	a354W0000046US4QAM	#422: Passages: Fletcher's Rebellion, Part 1 of 2
+7V	a354W0000046US9QAM	#423: Passages: Fletcher's Rebellion, Part 2 of 2
+7W	a354W0000046UNfQAM	#424: Blackgaard's Revenge, Part 1 of 2
+7X	a354W0000046USEQA2	#425: Blackgaard's Revenge, Part 2 of 2
+7Y	a354W0000046USOQA2	#426: The Buck Starts Here
+7Z	a354W0000046USTQA2	#427: Something Cliqued Between Us
+80	a354W0000046USYQA2	#428: The Eternal Birthday & Bethany's Imaginary Friend
+81	a354W0000046USdQAM	#429: The Y.A.K. Problem
+82	a354W0000046U99QAE	#430: Blind Girl's Bluff
+83	a354W0000046USiQAM	#431: Where There's Smoke & The Virtual Kid
+84	a354W0000046UKVQA2	#432: You Win Some, You Lose Some
+85	a354W0000046USnQAM	#433: The Treasure Room & Chain Reaction
+86	a354W0000046USsQAM	#434: B-TV: Redeeming the Season
+87	a354W0000046USxQAM	#435: A Look Back, Part 1 of 2
+88	a354W0000046U1OQAU	#436: A Look Back, Part 2 of 2
+89	a354W0000046UT2QAM	#437: Sunset Bowlawater & The Long Way Home
+8a	a354W0000046UT7QAM	#438: The Lyin' Tale & Two Roads
+8b	a354W0000046UTCQA2	#440: I Slap Floor
+8c	a354W0000046UTHQA2	#441: What Do You Think? & Idol Minds
+8d	a354W0000046UTMQA2	#443: Changing Rodney
+8e	a354W0000046U5gQAE	#444: The Bad Guy & Bethany's Flood
+8f	a354W0000046UTRQA2	#445: No Boundaries
+8g	a354W0000046UIoQAM	#446: A Matter of Manners & The Seven Deadly Dwarves
+8h	a354W0000046UGxQAM	#447: Potlucks & Poetry
+8i	a354W0000046UH8QAM	#448: Mandy's Debut
+8j	a354W0000046UTWQA2	#449: The Big Deal, Part 1 of 2
+8k	a354W0000046U14QAE	#450: The Big Deal, Part 2 of 2
+8l	a354W0000046UI6QAM	#451: Life Trials of the Rich & Famous
+8m	a354W0000046TqRQAU	#452: Missionary Impossible
+8n	a354W0000046U5LQAU	#453: The Great Wishy Woz, Part 1 of 2
+8o	a354W0000046UStQAM	#454: The Great Wishy Woz, Part 2 of 2
+8p	a354W0000046UTbQAM	#455: Best Laid Plans
+8q	a354W0000046TxIQAU	#456: Worst Day Ever
+8r	a354W0000046UTgQAM	#457: Opportunity Knocks
+8s	a354W0000046U2lQAE	#458: Red Herring
+8t	a354W0000046UTlQAM	#459: Slumber Party
+8u	a354W0000046UTqQAM	#460: Nova Rising
+8v	a354W0000046UTvQAM	#461: B-TV: Obedience
+8w	a354W0000046TfmQAE	#462: The W.E.
+8x	a354W0000046UU0QAM	#463: Green Eyes & Yellow Tulips
+8y	a354W0000046UU5QAM	#464: The Triangle, Part 1 of 2
+8z	a354W0000046UUAQA2	#465: The Triangle, Part 2 of 2
+8A	a354W0000046UUFQA2	#466: Snow Day
+8B	a354W0000046UUKQA2	#467: Broken Window
+8C	a354W0000046UUPQA2	#468: Chains, Part 1 of 2
+8D	a354W0000046UUUQA2	#469: Chains, Part 2 of 2
+8E	a354W0000046UUZQA2	#470: Break a Leg
+8F	a354W0000046UUeQAM	#471: Fifteen Minutes
+8G	a354W0000046UUjQAM	#472: Welcoming Wooton
+8H	a354W0000046UUoQAM	#473: Breaking Point
+8I	a354W0000046U5zQAE	#474: Shining Armor, Part 1 of 2
+8J	a354W0000046UUtQAM	#475: Shining Armor, Part 2 of 2
+8K	a354W0000046UUyQAM	#476: Relatively Annoying
+8L	a354W0000046UV3QAM	#477: O. T. Action News: Battle at the Kishon
+8M	a354W0000046UV8QAM	#478: Strange Boy in a Strange Land
+8N	a354W0000046UVDQA2	#479: Happy Smilers
+8O	a354W0000046UVIQA2	#480: The Popsicle Kid
+8P	a354W0000046UFzQAM	#481: Grand Opening, Part 1 of 2
+8Q	a354W0000046UErQAM	#482: Grand Opening, Part 2 of 2
+8R	a354W0000046URMQA2	#483: Secrets
+8S	a354W0000046UVNQA2	#484: Plan B, Part 1 of 4: Missing in Action
+8T	a354W0000046UVSQA2	#485: Plan B, Part 2 of 4: Collision Course
+8U	a354W0000046UULQA2	#486: Plan B, Part 3 of 4: Cross-Fire
+8V	a354W0000046UVXQA2	#487: Plan B, Part 4 of 4: Resistance
+8W	a354W0000046UVcQAM	#488: Under the Influence, Part 1 of 2
+8X	a354W0000046UVhQAM	#489: Under the Influence, Part 2 of 2
+8Y	a354W0000046UVmQAM	#490: The Black Veil, Part 1 of 2
+8Z	a354W0000046UVrQAM	#491: The Black Veil, Part 2 of 2
+90	a354W0000046U3AQAU	#492: Twisting Pathway
+91	a354W0000046UVwQAM	#493: Sheep's Clothing
+92	a354W0000046UBsQAM	#494: Box of Miracles
+93	a354W0000046UU6QAM	#495: The Unraveling
+94	a354W0000046UBYQA2	#496: Exceptional Circumstances
+95	a354W0000046UBdQAM	#497: Expect the Worst
+96	a354W0000046UW1QAM	#498: Exactly As Planned
+97	a354W0000046UDhQAM	#499: Exit
+98	a354W0000046UW6QAM	#500: 500
+99	a354W0000046UWBQA2	#501: Inside the Studio
+9a	a354W0000046UWGQA2	#502: Live at the 25
+9b	a354W0000046UEwQAM	#503: Between You and Me
+9c	a354W0000046UWLQA2	#504: Aubrey's Bathrobe
+9d	a354W0000046UWQQA2	#505: The Toy Man
+9e	a354W0000046UMXQA2	#506: For Trying Out Loud
+9f	a354W0000046UWVQA2	#507: The Benefit of the Doubt
+9g	a354W0000046UWaQAM	#508: The American Revelation, Part 1 of 2
+9h	a354W0000046UWfQAM	#509: The American Revelation, Part 2 of 2
+9i	a354W0000046UWkQAM	#510: For the Fun of It
+9j	a354W0000046U3yQAE	#511: The Pact, Part 1 of 2
+9k	a354W0000046UWWQA2	#512: The Pact, Part 2 of 2
+9l	a354W0000046UWpQAM	#513: Do or Diet
+9m	a354W0000046UWuQAM	#514: Room Enough for Two
+9n	a354W0000046UWzQAM	#515: B-TV: Behind the Scenes
+9o	a354W0000046UX4QAM	#516: Bassett Hounds
+9p	a354W0000046UX9QAM	#517: It's All About Me
+9q	a354W0000046UAGQA2	#518: The Case of the Disappearing Hortons
+9r	a354W0000046UJwQAM	#519: The Defining Moment
+9s	a354W0000046UMgQAM	#520: The Mystery at Tin Flat
+9t	a354W0000046UMbQAM	#521: Hindsight
+9u	a354W0000046UXEQA2	#522: All Things to All People
+9v	a354W0000046U9ZQAU	#523: Here Today, Gone Tomorrow? Part 1 of 3
+9w	a354W0000046UXJQA2	#524: Here Today, Gone Tomorrow? Part 2 of 3
+9x	a354W0000046UOmQAM	#525: Here Today, Gone Tomorrow? Part 3 of 3
+9y	a354W0000046UXOQA2	#526: Seeing Red
+9z	a354W0000046UXTQA2	#527: Black Clouds
+9A	a354W0000046UXYQA2	#528: The Taming of the Two
+9B	a354W0000046UXdQAM	#529: The Mailman Cometh
+9C	a354W0000046UXiQAM	#530: Silver Lining
+9D	a354W0000046UXnQAM	#531: Teacher's Pest
+9E	a354W0000046UBZQA2	#532: Pink is Not My Color
+9F	a354W0000046UXsQAM	#533: Something Blue, Part 1 of 2
+9G	a354W0000046UXxQAM	#534: Something Blue, Part 2 of 2
+9H	a354W0000046UY2QAM	#535: Living in the Gray, Part 1 of 2
+9I	a354W0000046UY7QAM	#536: Living in the Gray, Part 2 of 2
+9J	a354W0000046UYCQA2	#537: My Girl Hallie
+9K	a354W0000046UYHQA2	#537a: BONUS! Alternate ending to "My Girl Hallie"
+9L	a354W0000046UYMQA2	#538: Stubborn Streaks
+9M	a354W0000046U6TQAU	#539: Called on in Class
+9N	a354W0000046UJxQAM	#540: The Girl in the Sink
+9O	a354W0000046UYRQA2	#541: Bernard & Saul
+9P	a354W0000046UYWQA2	#542: Eggshells
+9Q	a354W0000046UYbQAM	#543: Nothing But the Half Truth
+9R	a354W0000046UYgQAM	#544: Split Ends
+9S	a354W0000046UXFQA2	#545: Something's Got to Change
+9T	a354W0000046UYlQAM	#546: No Way Out (Part 1 of 2)
+9U	a354W0000046UQ4QAM	#547: No Way In (Part 2 of 2)
+9V	a354W0000046UYqQAM	#548: Sounds Like a Mystery
+9W	a354W0000046UYvQAM	#549: Think on These Things
+9X	a354W0000046UZ0QAM	#550: Fairy Tal-e-vision
+9Y	a354W0000046U4DQAU	#551: Stars in Our Eyes
+9Z	a354W0000046UMHQA2	#552: Sunday Morning Scramble
+a0	a354W0000046UPkQAM	#553: Potential Possibilities
+a1	a354W0000046UZ5QAM	#554: Call Me if You Care
+a2	a354W0000046UZAQA2	#555: True Calling
+a3	a354W0000046UZFQA2	#556: And That's the Truth
+a4	a354W0000046UQEQA2	#557: A Lamb's Tale
+a5	a354W0000046UALQA2	#558: A Glass Darkly
+a6	a354W0000046UZKQA2	#559: The Coolest Dog
+a7	a354W0000046TdRQAU	#560: The Present Long Ago
+a8	a354W0000046UZPQA2	#561: Lost by a Nose
+a9	a354W0000046UZUQA2	#562: The Last "I Do"
+aa	a354W0000046UZZQA2	#563: Tuesdays with Wooton
+ab	a354W0000046UZeQAM	#564: A Most Intriguing Question
+ac	a354W0000046UZjQAM	#565: A Most Surprising Answer
+ad	a354W0000046TMfQAM	#566: A Most Extraordinary Conclusion
+ae	a354W0000046UEDQA2	#566a: BONUS! Studio Outtakes
+af	a354W0000046UZoQAM	#566b: BONUS! Alternate scene - Eugene explains where he's been
+ag	a354W0000046UZtQAM	#567: Two Friends and a Truck
+ah	a354W0000046UZyQAM	#568: The Power of One
+ai	a354W0000046Ua3QAE	#569: The Invisible Dog
+aj	a354W0000046UZQQA2	#569a: BONUS! Contest winner cameo appearance
+ak	a354W0000046Ua8QAE	#570: For Better or for Worse, Part 1 of 2
+al	a354W0000046UP6QAM	#571: For Better or for Worse, Part 2 of 2
+am	a354W0000046UaDQAU	#571a: BONUS! Deleted scene from "For Better or for Worse"
+an	a354W0000046UaIQAU	#572: Odyssey Sings!
+ao	a354W0000046UaNQAU	#572a: BONUS! Behind the scenes of "Odyssey Sings!"
+ap	a354W0000046UaSQAU	#572b: BONUS! Song: Electric Palace Do-Dah
+aq	a354W0000046UVxQAM	#572c: BONUS! Song: You Have the Right
+ar	a354W0000046UaXQAU	#572d: BONUS! Song: The Death of Tragedy
+as	a354W0000046UacQAE	#572e: BONUS! Song: My Ode to Macaroni
+at	a354W0000046UahQAE	#572f: BONUS! Song: The Highway
+au	a354W0000046UamQAE	#573: Back to Abnormal
+av	a354W0000046UarQAE	#574: Prisoners of Fear, Part 1 of 3
+aw	a354W0000046UJcQAM	#575: Prisoners of Fear, Part 2 of 3
+ax	a354W0000046UawQAE	#576: Prisoners of Fear, Part 3 of 3
+ay	a354W0000046UaOQAU	#577: The Business of Busyness
+az	a354W0000046Ub1QAE	#578: All-Star Witness
+aA	a354W0000046Ub6QAE	#579: Always
+aB	a354W0000046UbBQAU	#580: Tales of a Small-Town Thug
+aC	a354W0000046UUGQA2	#581: A Christmas Conundrum
+aD	a354W0000046UbGQAU	#582: Silent Night
+aE	a354W0000046UbLQAU	#583: The Champ of the Camp
+aF	a354W0000046UBeQAM	#584: Dead Ends
+aG	a354W0000046UbQQAU	#585: The Poor Rich Guy
+aH	a354W0000046UbVQAU	#586: A Cheater Cheated
+aI	a354W0000046UbaQAE	#587: Bringing Up Dads
+aJ	a354W0000046UbfQAE	#588: Broken-Armed and Dangerous
+aK	a354W0000046UbkQAE	#589: The Impossible
+aL	a354W0000046U60QAE	#590: Three O'Clock Call
+aM	a354W0000046UbpQAE	#591: Switch
+aN	a354W0000046UXGQA2	#591a: BONUS! Audio commentary on the episode "Switch"
+aO	a354W0000046UbuQAE	#592: Now More Than Ever
+aP	a354W0000046UPpQAM	#593: Around the Block
+aQ	a354W0000046UbzQAE	#594: A Time for Action, Part 1 of 2
+aR	a354W0000046Uc4QAE	#595: A Time for Action, Part 2 of 2
+aS	a354W0000046Uc9QAE	#595a: BONUS! Preview of Volume 47
+aT	a354W0000046UcEQAU	#596: Cover of Darkness
+aU	a354W0000046UCXQA2	#596a: BONUS! The making of "Cover of Darkness"
+aV	a354W0000046UcJQAU	#597: Out of Our Hands
+aW	a354W0000046UU7QAM	#598: My Favorite Thing
+aX	a354W0000046UcOQAU	#599: Blood, Sweat, and Fears
+aY	a354W0000046UcTQAU	#600: The Nudge
+aZ	a354W0000046UcYQAU	#601: Bernard & Jeremiah
+b0	a354W0000046Uc5QAE	#602: Mum's the Word
+b1	a354W0000046UcdQAE	#603: The Family Next Door
+b2	a354W0000046U35QAE	#604: Like Father, Like Wooton
+b3	a354W0000046UciQAE	#605: The Chosen One, Part 1 of 2
+b4	a354W0000046ULdQAM	#606: The Chosen One, Part 2 of 2
+b5	a354W0000046UcnQAE	#607: The Undeniable Truth
+b6	a354W0000046UDoQAM	#607a: BONUS! Preview of Volume 48
+b7	a354W0000046UcsQAE	#608: Run-of-the-Mill Miracle
+b8	a354W0000046UcxQAE	#609: Prequels of Love
+b9	a354W0000046Ud2QAE	#609a: BONUS! Outtakes from "Prequels of Love"
+ba	a354W0000046Ud7QAE	#609b: BONUS! The making of the Pork Rinds song
+bb	a354W0000046UdCQAU	#609c: BONUS! Song: I Love My Pork Rinds
+bc	a354W0000046U0CQAU	#610: Hear Me, Hear Me
+bd	a354W0000046TciQAE	#610a: BONUS! Deleted scene from "Hear Me, Hear Me"
+be	a354W0000046UdHQAU	#611: The Top Floor, Part 1 of 3
+bf	a354W0000046UdMQAU	#612: The Top Floor, Part 2 of 3
+bg	a354W0000046U28QAE	#613: The Top Floor, Part 3 of 3
+bh	a354W0000046UdRQAU	#614: Best of Enemies
+bi	a354W0000046USZQA2	#615: Only By His Grace
+bj	a354W0000046UJyQAM	#616: The Other Side of the Glass, Part 1 of 3
+bk	a354W0000046UdWQAU	#617: The Other Side of the Glass, Part 2 of 3
+bl	a354W0000046U2bQAE	#618: The Other Side of the Glass, Part 3 of 3
+bm	a354W0000046UdbQAE	#618a: BONUS! Preview of Volume 49
+bn	a354W0000046UdgQAE	#619: A New Era, Part 1 of 3
+bo	a354W0000046UdlQAE	#620: A New Era, Part 2 of 3
+bp	a354W0000046UdqQAE	#621: A New Era, Part 3 of 3
+bq	a354W0000046UdvQAE	#622: B-TV: Temptation
+br	a354W0000046Ue0QAE	#623: Buddy Guard
+bs	a354W0000046Ue5QAE	#623a: BONUS! Deleted scene from "Buddy Guard"
+bt	a354W0000046UeAQAU	#624: Wooing Wooton
+bu	a354W0000046UBnQAM	#625: Something Significant
+bv	a354W0000046URlQAM	#626: Life, In the Third Person, Part 1 of 2
+bw	a354W0000046UeFQAU	#627: Life, In the Third Person, Part 2 of 2
+bx	a354W0000046UeKQAU	#627a: BONUS! Alternate ending to "Life, in the Third Person"
+by	a354W0000046TcjQAE	#628: The Highest Stakes, Part 1 of 2
+bz	a354W0000046UPqQAM	#629: The Highest Stakes, Part 2 of 2
+bA	a354W0000046UePQAU	#630: Chip Off the Shoulder
+bB	a354W0000046UeUQAU	#630a: BONUS! Preview of Volume 50
+bC	a354W0000046UceQAE	#631: A Capsule Comes to Town
+bD	a354W0000046UeZQAU	#632: Suspicious Finds
+bE	a354W0000046TqSQAU	#632a: BONUS! Celebrating the life of Walker Edmiston
+bF	a354W0000046UeeQAE	#633: License to Deprive
+bG	a354W0000046TBhQAM	#634: Accidental Dilemma, Part 1 of 2
+bH	a354W0000046UejQAE	#635: Accidental Dilemma, Part 2 of 2
+bI	a354W0000046USUQA2	#636: A Class Reenactment
+bJ	a354W0000046URNQA2	#637: The Forgotten Deed
+bK	a354W0000046UeoQAE	#638: The Triangled Web, Part 1 of 2
+bL	a354W0000046UetQAE	#639: The Triangled Web, Part 2 of 2
+bM	a354W0000046UeyQAE	#639a: BONUS! A call from Robyn Jacobs
+bN	a354W0000046Uf3QAE	#640: Rights, Wrongs, and Winners
+bO	a354W0000046UWqQAM	#641: The Imagination Station, Revisited, Part 1 of 2
+bP	a354W0000046URvQAM	#642: The Imagination Station, Revisited, Part 2 of 2
+bQ	a354W0000046Uf8QAE	#643: Kidsboro, Part 1 of 3
+bR	a354W0000046UdhQAE	#644: Kidsboro, Part 2 of 3
+bS	a354W0000046UfDQAU	#645: Kidsboro, Part 3 of 3
+bT	a354W0000046UfIQAU	#646: Passages: Darien's Rise, Part 1 of 9
+bU	a354W0000046UWrQAM	#647: Passages: Darien's Rise, Part 2 of 9
+bV	a354W0000046U7CQAU	#648: Passages: Darien's Rise, Part 3 of 9
+bW	a354W0000046TytQAE	#649: Passages: Darien's Rise, Part 4 of 9
+bX	a354W0000046UM7QAM	#650: Passages: Darien's Rise, Part 5 of 9
+bY	a354W0000046UXZQA2	#651: Passages: Darien's Rise, Part 6 of 9
+bZ	a354W0000046UfNQAU	#652: Passages: Darien's Rise, Part 7 of 9
+c0	a354W0000046UfSQAU	#653: Passages: Darien's Rise, Part 8 of 9
+c1	a354W0000046UfXQAU	#654: Passages: Darien's Rise, Part 9 of 9
+c2	a354W0000046UfcQAE	#655: The Inspiration Station, Part 1 of 2
+c3	a354W0000046UYhQAM	#656: The Inspiration Station, Part 2 of 2
+c4	a354W0000046UfYQAU	#657: Clutter
+c5	a354W0000046UfhQAE	#658: Game for a Mystery
+c6	a354W0000046UDUQA2	#659: Target of the Week
+c7	a354W0000046U36QAE	#660: For the Birds
+c8	a354W0000046UfmQAE	#660a: BONUS! Chris outtake
+c9	a354W0000046UfEQAU	#661: When You're Right, You're Right
+ca	a354W0000046TscQAE	#662: Grandma's Visit
+cb	a354W0000046UfrQAE	#663: Finish What You...
+cc	a354W0000046U8zQAE	#664: The Jubilee Singers, Part 1 of 3
+cd	a354W0000046UfwQAE	#665: The Jubilee Singers, Part 2 of 3
+ce	a354W0000046Ug1QAE	#666: The Jubilee Singers, Part 3 of 3
+cf	a354W0000046Ug6QAE	#666a: BONUS! The music of the Jubilee Singers
+cg	a354W0000046UgBQAU	#666b: BONUS! Song: The Gospel Train
+ch	a354W0000046UgGQAU	#667: The Mystery of the Clock Tower, Part 1 of 2
+ci	a354W0000046UgLQAU	#668: The Mystery of the Clock Tower, Part 2 of 2
+cj	a354W0000046UgQQAU	#669: Wooton's Broken Pencil Show
+ck	a354W0000046UblQAE	#670: Stage Fright
+cl	a354W0000046UgVQAU	#671: Fast as I Can
+cm	a354W0000046UgaQAE	#672: Opposite Day
+cn	a354W0000046UgfQAE	#673: The Owlnapping
+co	a354W0000046UHlQAM	#674: Square One
+cp	a354W0000046UXaQAM	#675: A Thankstaking Story
+cq	a354W0000046UgkQAE	#676: An Agreeable Nanny
+cr	a354W0000046UgpQAE	#676a: BONUS! Splat! A Glimpse into the Foley Studio
+cs	a354W0000046UguQAE	#677: The Malted Milkball Falcon
+ct	a354W0000046UeQQAU	#678: Grandma's Christmas Visit
+cu	a354W0000046UgzQAE	#679: The Green Ring Conspiracy, Part 1 of 12
+cv	a354W0000046Uh4QAE	#680: The Green Ring Conspiracy, Part 2 of 12
+cw	a354W0000046UTDQA2	#681: The Green Ring Conspiracy, Part 3 of 12
+cx	a354W0000046TzTQAU	#682: The Green Ring Conspiracy, Part 4 of 12
+cy	a354W0000046Uh9QAE	#683: The Green Ring Conspiracy, Part 5 of 12
+cz	a354W0000046UhEQAU	#684: The Green Ring Conspiracy, Part 6 of 12
+cA	a354W0000046U3UQAU	#685: The Green Ring Conspiracy, Part 7 of 12
+cB	a354W0000046UHHQA2	#686: The Green Ring Conspiracy, Part 8 of 12
+cC	a354W0000046TwyQAE	#687: The Green Ring Conspiracy, Part 9 of 12
+cD	a354W0000046UhJQAU	#688: The Green Ring Conspiracy, Part 10 of 12
+cE	a354W0000046UefQAE	#689: The Green Ring Conspiracy, Part 11 of 12
+cF	a354W0000046UhOQAU	#690: The Green Ring Conspiracy, Part 12 of 12
+cG	a354W0000046UhTQAU	#690a: BONUS! Good Guys and Bad Guys
+cH	a354W0000046UhYQAU	#691: Wooton Knows Best
+cI	a354W0000046U2DQAU	#692: A Penny Saved
+cJ	a354W0000046UhdQAE	#693: The Amazing Loser
+cK	a354W0000046UPGQA2	#694: Anger Mismanagement
+cL	a354W0000046UhiQAE	#695: Forgiving More… or Less
+cM	a354W0000046UMCQA2	#696: You're Two Kind
+cN	a354W0000046UUuQAM	#697: A Penny Earned
+cO	a354W0000046TlzQAE	#698: Never for Nothing
+cP	a354W0000046UKuQAM	#699: Emily the Genius
+cQ	a354W0000046UhnQAE	#700: How to Sink a Sub
+cR	a354W0000046UhsQAE	#700a: BONUS! A Deleted Scene from "How to Sink a Sub"
+cS	a354W0000046U37QAE	#701: Unbecoming Jay
+cT	a354W0000046U0RQAU	#702: Childish Things
+cU	a354W0000046URgQAM	#703: The Labyrinth, Part 1 of 3
+cV	a354W0000046UhxQAE	#704: The Labyrinth, Part 2 of 3
+cW	a354W0000046Ui2QAE	#705: The Labyrinth, Part 3 of 3
+cX	a354W0000046TzrQAE	#706: To Mend or Repair
+cY	a354W0000046Ui7QAE	#707: Mistaken for Good
+cZ	a354W0000046UR7QAM	#708: Sergeant York, Part 1 of 4
+d0	a354W0000046UiCQAU	#709: Sergeant York, Part 2 of 4
+d1	a354W0000046UbvQAE	#710: Sergeant York, Part 3 of 4
+d2	a354W0000046UiHQAU	#711: Sergeant York, Part 4 of 4
+d3	a354W0000046UiMQAU	#712: Child's Play
+d4	a354W0000046UiRQAU	#713: Something Old, Something New, Part 1 of 2
+d5	a354W0000046UiWQAU	#714: Something Old, Something New, Part 2 of 2
+d6	a354W0000046UibQAE	#714a: BONUS! Studio ad-libs from "Something Old, Something New"
+d7	a354W0000046UigQAE	#715: The Perfect Church, Part 1 of 2
+d8	a354W0000046UilQAE	#716: The Perfect Church, Part 2 of 2
+d9	a354W0000046UiqQAE	#717: Great Expectations
+da	a354W0000046UivQAE	#718: For Three Dollars More
+db	a354W0000046U90QAE	#719: The Bible Network
+dc	a354W0000046UeVQAU	#720: Happy Hunting
+dd	a354W0000046UWMQA2	#721: The Holy Hoopster
+de	a354W0000046Uj0QAE	#721a: BONUS! Extended mix of "The Holy Hoopster" rap
+df	a354W0000046Uj5QAE	#722: The Lost Riddle
+dg	a354W0000046UjAQAU	#723: Groundhog Jay
+dh	a354W0000046UjFQAU	#724: Home Again, Part 1 of 2
+di	a354W0000046UjKQAU	#725: Home Again, Part 2 of 2
+dj	a354W0000046UjPQAU	#726: Push the Red Button
+dk	a354W0000046UjUQAU	#726a: BONUS! Behind-the-scenes of "Push the Red Button"
+dl	a354W0000046ULsQAM	#727: Your Servant is Listening, Part 1 of 2
+dm	a354W0000046UjZQAU	#728: Your Servant is Listening, Part 2 of 2
+dn	a354W0000046UjeQAE	#729: No Chemistry Whatsoever
+do	a354W0000046TsdQAE	#730: The Friend Formula
+dp	a354W0000046UDkQAM	#731: More Than a Feeling
+dq	a354W0000046UjjQAE	#731a: BONUS! Behind the scenes with Painted Flowers
+dr	a354W0000046UegQAE	#731b: BONUS! Song: "When You're in Love"
+ds	a354W0000046UjoQAE	#732: Repent After Me
+dt	a354W0000046UjtQAE	#733: Big Trouble Under the Big Top
+du	a354W0000046U2EQAU	#734: Life Expectancy, Part 1 of 3
+dv	a354W0000046UbHQAU	#735: Life Expectancy, Part 2 of 3
+dw	a354W0000046UaxQAE	#736: Life Expectancy, Part 3 of 3
+dx	a354W0000046U61QAE	#737: The Pilot, Part 1 of 2
+dy	a354W0000046UVyQAM	#738: The Pilot, Part 2 of 2
+dz	a354W0000046UdDQAU	#738a: BONUS! Video: "Get in the Show" Shona's Journey
+dA	a354W0000046UjyQAE	#738b: BONUS! Video: A Call to Something More: The Odyssey Adventure Club
+dB	a354W0000046Uk3QAE	#739: The Launch, Part 1 of 2
+dC	a354W0000046Uk8QAE	#740: The Launch, Part 2 of 2
+dD	a354W0000046UkDQAU	#741: In a Kingdom Far Away
+dE	a354W0000046URbQAM	#742: Drake the Cosmic Copper
+dF	a354W0000046UDyQAM	#743: Mission: Unaccomplished, Part 1 of 2
+dG	a354W0000046UkIQAU	#744: Mission: Unaccomplished, Part 2 of 2
+dH	a354W0000046UkNQAU	#745: Like a Good Neighbor
+dI	a354W0000046UkSQAU	#746: The Lone Lawman
+dJ	a354W0000046UdIQAU	#747: 30 Jays Hath September
+dK	a354W0000046UkXQAU	#748: The Perfect Gift
+dL	a354W0000046UkcQAE	#749: The Drop Box
+dM	a354W0000046TzDQAU	#750: All by Myself
+dN	a354W0000046UkhQAE	#751: The Ties That Bind, Part 1 of 14
+dO	a354W0000046UkmQAE	#752: The Ties That Bind, Part 2 of 14
+dP	a354W0000046TqTQAU	#753: The Ties That Bind, Part 3 of 14
+dQ	a354W0000046UkrQAE	#754: The Ties That Bind, Part 4 of 14
+dR	a354W0000046UkwQAE	#755: The Ties That Bind, Part 5 of 14
+dS	a354W0000046TzmQAE	#756: The Ties That Bind, Part 6 of 14
+dT	a354W0000046UG9QAM	#757: The Ties That Bind, Part 7 of 14
+dU	a354W0000046UHRQA2	#758: The Ties That Bind, Part 8 of 14
+dV	a354W0000046Ul1QAE	#759: The Ties That Bind, Part 9 of 14
+dW	a354W0000046Ul6QAE	#760: The Ties That Bind, Part 10 of 14
+dX	a354W0000046UZ6QAM	#761: The Ties That Bind, Part 11 of 14
+dY	a354W0000046UlBQAU	#762: The Ties That Bind, Part 12 of 14
+dZ	a354W0000046UQFQA2	#763: The Ties That Bind, Part 13 of 14
+e0	a354W0000046UKkQAM	#764: The Ties That Bind, Part 14 of 14
+e1	a354W0000046UlGQAU	#764a: BONUS! Behind the scenes of "The Train Room" scene
+e2	a354W0000046UirQAE	#764b: BONUS! Deleted scenes from "The Ties That Bind"
+e3	a354W0000046UlLQAU	#765: Follow Me
+e4	a354W0000046U5hQAE	#766: The Cure, Part 1 of 3
+e5	a354W0000046UlQQAU	#767: The Cure, Part 2 of 3
+e6	a354W0000046UlVQAU	#768: The Cure, Part 3 of 3
+e7	a354W0000046UjfQAE	#769: B-TV: To Tell the Truth
+e8	a354W0000046UlMQAU	#770: To the Ends of the Earth
+e9	a354W0000046UjGQAU	#771: Pinocchio: The Tale of a Foolish Puppet, Part 1 of 2
+ea	a354W0000046UlaQAE	#772: Pinocchio: The Tale of a Foolish Puppet, Part 2 of 2
+eb	a354W0000046UlfQAE	#773: Hidden Gems
+ec	a354W0000046UlkQAE	#774: Walter's Flying Bus
+ed	a354W0000046UlpQAE	#775: Take It on Trust
+ee	a354W0000046UluQAE	#776: A Daughter's Love
+ef	a354W0000046U9mQAE	#777: First Things First
+eg	a354W0000046UlzQAE	#778: Playing the Predictable
+eh	a354W0000046UihQAE	#779: A Big Commitment
+ei	a354W0000046Um4QAE	#780: Dinner Roll Models
+ej	a354W0000046Um9QAE	#781: Out of the Woods
+ek	a354W0000046UmEQAU	#782: Let's Get Together
+el	a354W0000046SQbQAM	#782a: BONUS! Behind the scenes of "Taking the Plunge"
+em	a354W0000046UmJQAU	#783: Words from the Wise
+en	a354W0000046UVEQA2	#784: Cycle of Fear
+eo	a354W0000046UmOQAU	#785: No Cause for Concern
+ep	a354W0000046UmTQAU	#786: The Case of the Ball Cap Hero
+eq	a354W0000046UmYQAU	#787: Between the Lines, Part 1 of 2
+er	a354W0000046UmdQAE	#788: Between the Lines, Part 2 of 2
+es	a354W0000046UT3QAM	#788a: BONUS! Behind the scenes of "Between the Lines"
+et	a354W0000046UmiQAE	#789: The Journal of John Avery Whittaker
+eu	a354W0000046UOrQAM	#790: Walk This Way
+ev	a354W0000046URHQA2	#791: When One Door Closes, Part 1 of 2
+ew	a354W0000046UmnQAE	#792: When One Door Closes, Part 2 of 2
+ex	a354W0000046UmsQAE	#793: The Good Soil
+ey	a354W0000046Uh5QAE	#794: Things Not Seen
+ez	a354W0000046UmxQAE	#795: The Boat People, Part 1 of 2
+eA	a354W0000046Un2QAE	#796: The Boat People, Part 2 of 2
+eB	a354W0000046UDlQAM	#797: A Predicament of Biblical Proportions
+eC	a354W0000046Un7QAE	#798: A Forgiving Heart
+eD	a354W0000046UnCQAU	#799: Where Your Treasure Is
+eE	a354W0000046UnHQAU	#800: Un-Tech the Halls
+eF	a354W0000046TtyQAE	#801: The Feud of Mason County
+eG	a354W0000046UnMQAU	#802: Parker for President
+eH	a354W0000046UnRQAU	#803: Old Tricks
+eI	a354W0000046UnWQAU	#804: The Key Suspect
+eJ	a354W0000046Ug2QAE	#805: A Very Bassett Wedding, Part 1 of 2
+eK	a354W0000046UnbQAE	#806: A Very Bassett Wedding, Part 2 of 2
+eL	a354W0000046UngQAE	#806a: BONUS! Behind the scenes of "A Very Bassett Wedding"
+eM	a354W0000046U5iQAE	#807: Connie the Counselor
+eN	a354W0000046UnlQAE	#808: No Friend Like an Old Friend
+eO	a354W0000046UDaQAM	#809: Fathers and Sons
+eP	a354W0000046UimQAE	#809a: BONUS! Deleted scene from "Fathers and Sons"
+eQ	a354W0000046UnqQAE	#810: The Grass Is Always Greener
+eR	a354W0000046UmjQAE	#811: Legacy, Part 1 of 2
+eS	a354W0000046UnvQAE	#812: Legacy, Part 2 of 2
+eT	a354W0000046Uo0QAE	#812a: BONUS! Song: "Some Little Corner of the World"
+eU	a354W0000046Uo5QAE	#812b: BONUS! Song: "Apple of My Eye"
+eV	a354W0000046U15QAE	#812c: BONUS! Song: "Welcome to Santos Cuerpo"
+eW	a354W0000046UoAQAU	#813: One More Name, Part 1 of 3
+eX	a354W0000046UoFQAU	#814: One More Name, Part 2 of 3
+eY	a354W0000046UksQAE	#815: One More Name, Part 3 of 3
+eZ	a354W0000046UoKQAU	#816: A Perfect Testimony
+f0	a354W0000046UoPQAU	#817: Unfair Game
+f1	a354W0000046UBJQA2	#818: Swept Away, Part 1 of 2
+f2	a354W0000046U9IQAU	#819: Swept Away, Part 2 of 2
+f3	a354W0000046UCCQA2	#820: The Legend of Sperry McGerk
+f4	a354W0000046USeQAM	#821: Angels in Horsehair
+f5	a354W0000046TZyQAM	#822: There and Back Again, Part 1 of 4
+f6	a354W0000046UoUQAU	#823: There and Back Again, Part 2 and 3 of 4
+f7	a354W0000046U72QAE	#825: There and Back Again, Part 4 of 4
+f8	a354W0000046UoeQAE	#826: Find a Penny, Part 1 of 2
+f9	a354W0000046UojQAE	#827: Find a Penny, Part 2 of 2
+fa	a354W0000046UooQAE	#827a: BONUS! Full song for "I'm in the Deep End (Over You)"
+fb	a354W0000046UotQAE	#828: Friend or Foe
+fc	a354W0000046UoyQAE	#829: Have a Heart
+fd	a354W0000046URIQA2	#829a: BONUS! The story behind "Have a Heart"
+fe	a354W0000046Up3QAE	#830: B-TV: Revenge
+ff	a354W0000046Up8QAE	#830a: BONUS! Extra sketch: Roman Ad Agency
+fg	a354W0000046UpDQAU	#831: Crash Course
+fh	a354W0000046UbbQAE	#832: Your Honest Opinion, Please
+fi	a354W0000046UpIQAU	#833: The Secret of the Writer's Ruse
+fj	a354W0000046UpNQAU	#834: Sir Buddy's Snowy Day
+fk	a354W0000046UYSQA2	#835: David and Absalom, Part 1 of 2
+fl	a354W0000046UTNQA2	#836: David and Absalom, Part 2 of 2
+fm	a354W0000046UpSQAU	#836a: BONUS! Behind the scenes of "David and Absalom"
+fn	a354W0000046Ug3QAE	#837: Out of the Picture
+fo	a354W0000046UpXQAU	#838: Rewinding the Big Picture
+fp	a354W0000046UpcQAE	#839: Met His Match
+fq	a354W0000046UphQAE	#840: Failing to the Finish Line
+fr	a354W0000046UpmQAE	#841: Drake and the Time That Time Forgot
+fs	a354W0000046UprQAE	#842: Mean Streak
+ft	a354W0000046UpwQAE	#843: Always Do Your Best-ish
+fu	a354W0000046Uq1QAE	#844: Charlotte
+fv	a354W0000046URmQAM	#845: Walk Worthy
+fw	a354W0000046Uq6QAE	#846: The Last Straw
+fx	a354W0000046UqBQAU	#847: Beyond Repair
+fy	a354W0000046UTOQA2	#848: The New Olivia
+fz	a354W0000046UqGQAU	#849: Out to Sea
+fA	a354W0000046UqLQAU	#850: The Shame About Fame
+fB	a354W0000046UqQQAU	#851: The Sandwich Initiative
+fC	a354W0000046UqVQAU	#851a: BONUS! Behind the scenes of "The Sandwich Initiative"
+fD	a354W0000046UqaQAE	#852: The Toy
+fE	a354W0000046UqfQAE	#853: The Good in People
+fF	a354W0000046UqkQAE	#854: Not What I Expected
+fG	a354W0000046UqpQAE	#855: Divided We Fall
+fH	a354W0000046UPzQAM	#856: Much Ado about Jealousy
+fI	a354W0000046UbwQAE	#857: Same Mold Story
+fJ	a354W0000046UquQAE	#858: B-TV: Trinity
+fK	a354W0000046Uk4QAE	#858a: BONUS! Deleted scene from "B-TV: Trinity"
+fL	a354W0000046UUfQAM	#859: The Long End, Part 1 of 3
+fM	a354W0000046UpEQAU	#860: The Long End, Part 2 of 3
+fN	a354W0000046UqzQAE	#861: The Long End, Part 3 of 3
+fO	a354W0000046Ur4QAE	#862: In a Sun-Scorched Land, Part 1 of 2
+fP	a354W0000046Ur9QAE	#863: In a Sun-Scorched Land, Part 2 of 2
+fQ	a354W0000046U9rQAE	#864: Between Camp and a Hard Place, Part 1 of 2
+fR	a354W0000046UrEQAU	#865: Between Camp and a Hard Place, Part 2 of 2
+fS	a354W0000046UZuQAM	#866: Rumpelstiltskin: A Wee Little Tale
+fT	a354W0000046UrJQAU	#867: Take Every Thought Captive
+fU	a354W0000046UrOQAU	#868: All for the Guest
+fV	a354W0000046UrTQAU	#869: B-TV: Idolatry
+fW	a354W0000046USoQAM	#870: The World of Whitonia
+fX	a354W0000046UeGQAU	#871: Icky and Kat and Balty and Bones
+fY	a354W0000046UrYQAU	#872: The Morning Star
+fZ	a354W0000046UZvQAM	#873: Lifted Out of Context
+g0	a354W0000046TdSQAU	#874: Rightly Dividing
+g1	a354W0000046UrdQAE	#874a: BONUS! The true story behind "Rightly Dividing"
+g2	a354W0000046UouQAE	#875: Man of the House
+g3	a354W0000046UriQAE	#876: Page from the Playbook
+g4	a354W0000046UrnQAE	#877: A Sacrificial Escape
+g5	a354W0000046UB4QAM	#878: Nightmares by Constance, Part 1 of 2
+g6	a354W0000046UrsQAE	#879: Nightmares by Constance, Part 2 of 2
+g7	a354W0000046UjLQAU	#880: Good Job!
+g8	a354W0000046Uf4QAE	#881: Playing Favorites
+g9	a354W0000046UrxQAE	#882: A Wise Surprise
+ga	a354W0000046UZRQA2	#883: Breaking News
+gb	a354W0000046Us2QAE	#883a: BONUS! Behind the scenes of "Breaking News"
+gc	a354W0000046Us7QAE	#884: Always Home
+gd	a354W0000046UsCQAU	#885: Further from the Truth
+ge	a354W0000046UsHQAU	#886: Unsinkable, Part 1 of 2
+gf	a354W0000046UsMQAU	#887: Unsinkable, Part 2 of 2
+gg	a354W0000046UsRQAU	#888: Out of Her Element
+gh	a354W0000046UsWQAU	#889: Young Whit and the Revolutionary Secret
+gi	a354W0000046UsbQAE	#890: Bridget, Redefined
+gj	a354W0000046ULYQA2	#891: Cars, Trains, and Motorcycles
+gk	a354W0000046UsgQAE	#892: Millstones
+gl	a354W0000046UMlQAM	#893: Badges of Honor
+gm	a354W0000046UYwQAM	#894: A Simple Reminder
+gn	a354W0000046UqbQAE	#895: The Martyr and the Rooster
+go	a354W0000046UslQAE	#896: The Forever Gift
+gp	a354W0000046UTwQAM	#897: Teach a Man
+gq	a354W0000046UItQAM	#898: The Rydell Revelations, Part 1 of 3
+gr	a354W0000046UsqQAE	#899: The Rydell Revelations, Part 2 of 3
+gs	a354W0000046UsvQAE	#900: The Rydell Revelations, Part 3 of 3
+gt	a354W0000046UfTQAU	#901: For a Song
+gu	a354W0000046Ut0QAE	#902: California Dreams, Part 1 of 2
+gv	a354W0000046UJ8QAM	#903: California Dreams, Part 2 of 2
+gw	a354W0000046U8AQAU	#903a: BONUS! Behind the scenes of Jules's song in "California Dreams"
+gx	a354W0000046Us3QAE	#904: Jumping Off, Jumping In
+gy	a354W0000046Ut5QAE	#905: Auto Response
+gz	a354W0000046UtAQAU	#906: Unrelatable
+gA	a354W0000046UFqQAM	#906a: BONUS! The recording of "Unrelatable"
+gB	a354W0000046UtFQAU	#907: The Protector
+gC	a354W0000046UtKQAU	#908: The Christmas Bells
+gD	a354W0000046UtPQAU	#909: Let's Call the Whole Thing Off
+gE	a354W0000046UfiQAE	#910: If I Never Told You
+gF	a354W0000046TDiQAM	#911: Kopfkino: A Hare, a Hedgehog, and a Doof
+gG	a354W0000046Uh6QAE	#912: The Clown Hero
+gH	a354W0000046U9SQAU	#913: Search for a Sunflower
+gI	a354W0000046UtUQAU	#914: Hurricane Perkins
+gJ	a354W0000046Ug7QAE	#915: The Revenge of Bigfoot
+gK	a354W0000046UtZQAU	#916: Voice of Freedom, Part 1 of 2
+gL	a354W0000046UteQAE	#917: Voice of Freedom, Part 2 of 2
+gM	a354W0000046UtjQAE	#918: The Snow Must Go On
+gN	a354W0000046UtoQAE	#919: Sew On and Snow Forth
+gO	a354W0000046UClQAM	#920: Snow 'Em Who's Boss
+gP	a354W0000046UttQAE	#921: Make Snow Mistake
+gQ	a354W0000046UtyQAE	#922: The Team
+gR	a354W0000046UOXQA2	#923: Please Adjust Your Frequency
+gS	a354W0000046Uu3QAE	#924: Higher Than Our Ways
+gT	a354W0000046U9sQAE	#925: Triple-Decker Sundae
+gU	a354W0000046Uu8QAE	#926: Set a Watchman
+gV	a354W0000046UuDQAU	#927: Worth It
+gW	a354W0000046UscQAE	#927a: BONUS! The creation of the story of "A Slippery Slope"
+gX	a354W0000046U9wQAE	#928: The Lost One, Part 1 of 2
+gY	a354W0000046UuIQAU	#929: The Lost One, Part 2 of 2
+gZ	a354W0000046UuNQAU	#930: Judge Me Tender
+h0	a354W0000046UuSQAU	#931: As Buck Would Have It, Part 1 of 3
+h1	a354W0000046UuXQAU	#932: As Buck Would Have It, Part 2 of 3
+h2	a354W0000046UucQAE	#933: As Buck Would Have It, Part 3 of 3
+h3	a354W0000046ZJXQA2	#934: A Dickensian Dilemma
+h4	a354W0000046a1KQAQ	#935: In for a Penny
+h5	a354W0000046cd6QAA	#936: Drake and the Aberrant Automaton
+h6	a354W0000046dUqQAI	#937: The Way of the Comic Book
+h7	a354W0000046hUqQAI	#938: Knox on Love
+h8	a354W0000046hUvQAI	#939: Results May Vary
+h9	a354W0000046mRWQAY	#940: Fishing for Gold
+ha	a354W0000046oCbQAI	#941: The Honor of Obed-Edom
+hb	a354W0000046pUlQAI	#942: The 18-Yard Line
+hc	a354W0000046uErQAI	#943: Showdown in San Poco
+hd	a354W0000046wIcQAI	#944: A Friend in Need
+he	a354W000004SNaOQAW	#945: Knox on Sacrifice
+hf	a354W0000046qi0QAA	#946: Morning
+hg	a354W0000046qi5QAA	#947: Afternoon
+hh	a354W0000046qiAQAQ	#948: Evening
+hi	a354W0000046qiFQAQ	#949: Dead of Night
+hj	a354W0000046qiKQAQ	#950: Daybreak
+hk	a354W0000046qiPQAQ	#951: Final Minutes
+hl	a354W0000046qiUQAQ	#951a: BONUS! Who is Officer Burke?
+hm	a354W000004SNlMQAW	#952: Game Night
+hn	a354W000004SNlCQAW	#953: Renee Renewed
+ho	a354W000004SOHNQA4	#953a: BONUS! Meet Renee D. Carter
+hp	a354W000004SNlHQAW	#954: Legally Wooton
+hq	a354W000004SNlRQAW	#955: Value in the Process
+hr	a354W000004SNlWQAW	#956: Tough Call
+hs	a354W000004SNlNQAW	#957: King of My Heart
+ht	a354W000004SOHXQA4	#958: Reporting Live from Mount Sinai
+hu	a354W000004SOxhQAG	#959: Dose of Virtual Reality
+hv	a354W000004SQe6QAG	#960: The Jacobs Report: Robert Smalls
+hw	a354W000004SQeQQAW	#961: Survivor Boy
+hx	a354W000004SQeaQAG	#962: The Fast and the Ridiculous
+hy	a354W000004SQefQAG	#963: Mile 151
+hz	a354W000004l4L4QAI	#964: As Far As It Depends on Me
+hA	a354W000004l4KzQAI	#965: Two's Company, Four's a Crowd
+hB	a354W000004l4L9QAI	#966: The Best Is Yet to Come, Part 1 of 4
+hC	a354W000004l4LAQAY	#967: The Best Is Yet to Come, Part 2 of 4
+hD	a354W000004l4LEQAY	#968: The Best Is Yet to Come, Part 3 of 4
+hE	a354W000004l4LJQAY	#969: The Best Is Yet to Come, Part 4 of 4
+hF	a354W000004vhuKQAQ	#969a: BONUS! Song! Buck and Jules sing "Amazing Grace"
+hG	a354W000004vhwMQAQ	#969b: BONUS! Song! Buck songs "I'm Just Me"
+hH	a354W000004SQekQAG	#970: Precious Lord, Part 1 of 2
+hI	a354W000004SQepQAG	#971: Precious Lord, Part 2 of 2
+hJ	a354W000004vh7VQAQ	#972: Alibis
+hK	a354W000004SQeuQAG	#973: Extended Cut
+hL	a354W000004SQevQAG	#974: The Show Must Go On (and On)
+hM	a354W000004SQewQAG	#975: Naughty or Nice
+hN	a35Uh0000000KWbIAM	#976: The Rydell Realizations, Part 1 of 3
+hO	a35Uh0000000KYDIA2	#977: The Rydell Realizations, Part 2 of 3
+hP	a35Uh0000000KZpIAM	#978: The Rydell Realizations, Part 3 of 3
+hQ	a35Uh00000018GTIAY	#978a: BONUS! The recording of "The Rydell Realizations"
+hR	a35Uh0000000KpxIAE	#979: Right Notes, Wrong Key
+hS	a35Uh0000000Kl7IAE	#980: Making an Honest Buck, Part 1 of 2
+hT	a35Uh0000000KmjIAE	#981: Making an Honest Buck, Part 2 of 2
+hU	a354W000004SQeVQAW	#982: The Ark's the Thing
+hV	a35Uh0000000SHFIA2	#983: One Last Treasure Hunt
+hW	a35Uh0000000SIrIAM	#984: Running the Race, Part 1 of 3
+hX	a35Uh0000000SKTIA2	#985: Running the Race, Part 2 of 3
+hY	a35Uh0000000SM5IAM	#986: Running the Race, Part 3 of 3
+hZ	a35Uh0000000TBhIAM	#987: Quiet as a Smouse
+i0	a35Uh0000004CKLIA2	#988: The Heavens Declare
+i1	a35Uh0000005PFVIA2	#988a: BONUS! Deleted scene from "The Heavens Declare"
+i2	a35Uh0000005CADIA2	#989: The Smouse Show
+i3	a35Uh0000005CIHIA2	#990: Painted Into a Corner
+i4	a35Uh0000005CLVIA2	#991: Making Nice
+i5	a35Uh0000005COjIAM	#992: Unmanageable
+i6	a35Uh0000005PDtIAM	#992a: BONUS! Composer John Campbell sings "The Itsy Bitsy Spider"
+i7	a35Uh0000005CYPIA2	#993: Facing the Music
+i8	a35Uh0000000TDJIA2	#994: The Hero's Laundry
+i9	a35Uh0000000TEvIAM	#995: Worth Her Wage
+ia	a35Uh0000005PIjIAM	#996: Drake and the Heart Drive
+ib	a35Uh0000005suDIAQ	#997: You Dirty Rat
+ic	a35Uh00000063jBIAQ	#998: Express Salvation
+id	a35Uh00000065LBIAY	#999: Not the Same
+ie	a35Uh0000006UzVIAU	#1000: Kris-Crossed, Part 1 of 2
+if	a35Uh0000006V2jIAE	#1001: Kris-Crossed, Part 2 of 2
+ig	a35Uh000000A4lVIAS	#1001a: BONUS! Atticus Shaffer's original audition as Morrie Rydell
+ih	a35Uh0000006V9BIAU	#1002: Better Buck Next Time, Part 1 of 3
+ii	a35Uh0000006V5yIAE	#1003: Better Buck Next Time, Part 2 of 3
+ij	a35Uh0000006VAnIAM	#1004: Better Buck Next Time, Part 3 of 3
+ik	a35Uh000000A4n7IAC	#1004a: BONUS! Deleted phone call from "Better Buck Next Time"
+il	a35Uh0000006VCPIA2	#1005: My Hero Renee
+im	a35Uh00000066XNIAY	#1006: School of Hard Knocks
+in	a35Uh00000066YzIAI	#1007: Up His Sleeve
+io	a35Uh000000AHu1IAG	#1008: Ambush
+ip	a35Uh000000AHxFIAW	#1009: Bottled Up
+iq	a35Uh000000AHyrIAG	#1010: The Difference
+ir	a35Uh0000000TGXIA2	#1011: The Picture Day Plot
+is	a35Uh000000DKovIAG	#1012: Crossing the Line, Part 1 of 2
+it	a35Uh000000DKs9IAG	#1013: Crossing the Line, Part 2 of 2
+iu	a35Uh000000DL0DIAW	#1013a: BONUS! Shona’s original audition from 2012
+iv	a35Uh000000DKtlIAG	#1014: Just Another Day
+iw	a35Uh000000DKvNIAW	#1015: Two Steps Forward, Three Steps Back
+ix	a35Uh000000DKwzIAG	#1016: On the Edge, Part 1 of 2
+iy	a35Uh000000AQajIAG	#1018: Keeping Score
+iz	a354W0000046UuhQAE	Whit's Visitor
+iA	a354W0000046UAaQAM	Dental Dilemma
+iB	a354W0000046UumQAE	The New Kid in Town
+iC	a354W0000046UurQAE	No Stupid Questions
+iD	a354W0000046UuwQAE	You're Not Gonna Believe This…
+iE	a354W0000046Uv1QAE	My Brother's Keeper
+iF	a354W0000046Uv6QAE	While Dad's Away
+iG	a354W0000046UvBQAU	The Letter
+iH	a354W0000046UvGQAU	A Different Kind of Peer Pressure
+iI	a354W0000046UvLQAU	In Memory of Herman
+iJ	a354W0000046UvQQAU	A Member of the Family, Parts 1-2
+iK	a354W0000046UvVQAU	A Simple Addition
+iL	a354W0000046UvaQAE	BONUS! The creation of "Family Portraits": A Discussion with Steve ...
+iM	a354W0000046UwEQAU	Here Am I
+iN	a354W0000046UwJQAU	The Truth Be Told
+iO	a354W0000046UpFQAU	The Science Club
+iP	a354W0000046T84QAE	Three in One
+iQ	a354W0000046UwOQAU	In My Image
+iR	a354W0000046UwTQAU	Stepping Stones, Part 1 of 2
+iS	a354W0000046UwYQAU	Stepping Stones, Part 2 of 2
+iT	a354W0000046UwdQAE	The Final Call
