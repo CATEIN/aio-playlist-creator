@@ -68,6 +68,17 @@ body {
     font-size: 16px;
     margin: 10px;
   }
+
+  #saveStateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
   
   /* Selected Episodes Container */
   #selectedEpisodesSection {

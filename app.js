@@ -12,25 +12,69 @@ document.addEventListener('DOMContentLoaded', () => {
 // Load episodes from GitHub Gist
 async function loadEpisodes() {
   try {
-    const response = await fetch('https://gist.githubusercontent.com/CATEIN/4a3a7a2f38b5adeebd0bbbbbf41979db/raw/76d53c44fb27ca3eaaaa182d445a59914d0eed2b/episodes');
+    const response = await fetch('https://raw.githubusercontent.com/CATEIN/aio-playlist-creator/refs/heads/main/episodes/episode_names.txt');
     if (!response.ok) {
       throw new Error('Failed to load episode mapping file');
     }
     const text = await response.text();
     const lines = text.split('\n');
     episodes = lines.map(line => {
-      const match = line.trim().match(/^(\S+)\s+(.*)$/);
-      if (match) {
-        return { id: match[1], name: match[2].trim() };
+      const parts = line.trim().split(/\s+/);
+      if (parts.length >= 3) {
+        const shortId = parts[0];
+        const fullId = parts[1];
+        const name = parts.slice(2).join(' ');
+        return { shortId, id: fullId, name };
       }
       return null;
     }).filter(ep => ep !== null);
     
     updateSearchPlaceholder();
     console.log("Loaded episodes:", episodes);
+    loadFromURL();
   } catch (error) {
     console.error("Error loading episodes:", error);
   }
+}
+
+function loadFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get('n');
+  const image = params.get('i');
+  const encodedEpisodes = params.get('e');
+
+  if (!encodedEpisodes) return;
+
+  // Set name and image if present
+  if (name) {
+    document.getElementById('playlistName').value = name;
+  }
+  if (image) {
+    document.getElementById('playlistImageURL').value = image;
+  }
+
+  // Build shortId -> fullId map
+  const shortIdMap = {};
+  episodes.forEach(ep => {
+    if (ep.shortId) {
+      shortIdMap[ep.shortId] = ep.id;
+    }
+  });
+
+  // Decode episode list
+  playlistEpisodes = encodedEpisodes.split('.').map(part => {
+    return shortIdMap[part] ?? (part.startsWith('a3') ? part : null);
+  });
+
+  // Add unknown episodes to master list if needed
+  playlistEpisodes.forEach(id => {
+    if (!episodes.find(ep => ep.id === id)) {
+      episodes.push({ id, name: 'Unknown Episode' });
+    }
+  });
+
+  updateSelectedEpisodesDisplay();
+  updatePlaylistPreview();
 }
 
 // Update search placeholder with the highest episode number
@@ -64,12 +108,38 @@ function setupEventListeners() {
   document.getElementById('previewDownloadBtn').addEventListener('click', downloadPlaylist);
   document.getElementById('copyNamesBtn').addEventListener('click', copyEpisodeNames);
   document.getElementById('copyInlineLinksBtn').addEventListener('click', copyInlineLinks);
-  document.getElementById('copyUrlsBtn').addEventListener('click', copyPlainHyperlinks);
+  document.getElementById('copyUrlsBtn').addEventListener('click', copyLinks);
   document.getElementById('copyIdsBtn').addEventListener('click', copyEpisodeIds);
   document.getElementById('modifyPlaylistButton').addEventListener('click', () => {
     document.getElementById('modifyFile').click();
   });
   document.getElementById('modifyFile').addEventListener('change', handleFileImport);
+
+  document.getElementById('saveStateBtn').addEventListener('click', () => {
+    const name = document.getElementById('playlistName').value.trim();
+    const image = document.getElementById('playlistImageURL').value.trim();
+  
+    // Build a map from episode ID to shortId
+    const idToShort = {};
+    episodes.forEach(ep => {
+      if (ep.shortId) {
+        idToShort[ep.id] = ep.shortId;
+      }
+    });
+  
+    // Convert playlist episodes to short IDs or fallback to full
+    const encodedEpisodes = playlistEpisodes.map(id => {
+      return idToShort[id] || id;
+    }).join('.');
+  
+    const params = new URLSearchParams({
+      n: name,
+      i: image,
+      e: encodedEpisodes
+    });
+  
+    window.location.href = `?${params.toString()}`;
+  });
   
   // Image URL validation
   document.getElementById('playlistImageURL').addEventListener('blur', validateImageURL);
@@ -297,6 +367,19 @@ function setupDragAndDrop(div, index) {
   div.addEventListener('dragover', (e) => {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
+
+  const container = document.getElementById('selectedEpisodesContainer');
+  const rect = container.getBoundingClientRect();
+  const mouseY = e.clientY;
+
+  const scrollSpeed = 3; // pixels per frame
+  const edgeThreshold = 50; // px from top or bottom edge
+
+  if (mouseY - rect.top < edgeThreshold) {
+    container.scrollTop -= scrollSpeed;
+  } else if (rect.bottom - mouseY < edgeThreshold) {
+    container.scrollTop += scrollSpeed;
+  }
   });
   
   div.addEventListener('drop', (e) => {
@@ -389,7 +472,7 @@ function copyInlineLinks() {
     .catch(() => showPopup('Failed to copy inline links!'));
 }
 
-function copyPlainHyperlinks() {
+function copyLinks() {
   if (playlistEpisodes.length === 0) {
     showPopup('No episodes to copy!');
     return;
