@@ -11,10 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Load episodes from GitHub Gist
 async function loadEpisodes() {
+  const localUrl = './episodes/episode_names.txt';
+  const remoteUrl = 'https://raw.githubusercontent.com/CATEIN/aio-playlist-creator/refs/heads/main/episodes/episode_names.txt';
   try {
-    const response = await fetch('https://raw.githubusercontent.com/CATEIN/aio-playlist-creator/refs/heads/main/episodes/episode_names.txt');
+    // First try to load from local episodes folder
+    console.log("Attempting to load episodes from local folder...");
+    let response = await fetch(localUrl);
+    
     if (!response.ok) {
-      throw new Error('Failed to load episode mapping file');
+      // If local file fails, try remote URL
+      console.log("Local file not found, trying remote URL...");
+      response = await fetch(remoteUrl);
+      
+      if (!response.ok) {
+        throw new Error('Failed to load episode mapping file from both local and remote sources');
+      }
     }
     const text = await response.text();
     const lines = text.split('\n');
@@ -103,42 +114,93 @@ function setupEventListeners() {
   document.getElementById('searchInput').addEventListener('input', handleSearchInput);
   
   // Playlist management
-
+  document.getElementById('playlistName').addEventListener('input', updatePlaylistPreview);
+  document.getElementById('playlistImageURL').addEventListener('input', updatePlaylistPreview);
   document.getElementById('previewCopyBtn').addEventListener('click', copyPlaylist);
   document.getElementById('previewDownloadBtn').addEventListener('click', downloadPlaylist);
   document.getElementById('copyNamesBtn').addEventListener('click', copyEpisodeNames);
   document.getElementById('copyInlineLinksBtn').addEventListener('click', copyInlineLinks);
   document.getElementById('copyUrlsBtn').addEventListener('click', copyLinks);
   document.getElementById('copyIdsBtn').addEventListener('click', copyEpisodeIds);
+  document.getElementById('sortAscBtn').addEventListener('click', () => {
+    sortPlaylist(true);
+  });
+  document.getElementById('sortDescBtn').addEventListener('click', () => {
+    sortPlaylist(false);
+  });
   document.getElementById('modifyPlaylistButton').addEventListener('click', () => {
     document.getElementById('modifyFile').click();
   });
   document.getElementById('modifyFile').addEventListener('change', handleFileImport);
+  document.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
+      e.preventDefault();
+      const url = buildPlaylistURL(true);
+      window.location.href = url;
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'd') {
+      e.preventDefault();
+      downloadPlaylist();
+    }
+  });
 
+  let saveHoldTimeout = null;
+  let saveHoldTriggered = false;
+  
+  let shareHoldTimeout = null;
+  let shareHoldTriggered = false;
+  
+  // Save State – short press: navigate
   document.getElementById('saveStateBtn').addEventListener('click', () => {
-    const name = document.getElementById('playlistName').value.trim();
-    const image = document.getElementById('playlistImageURL').value.trim();
+    if (saveHoldTriggered) return;
+    const url = buildPlaylistURL(true);
+    window.location.href = url;
+  });
   
-    // Build a map from episode ID to shortId
-    const idToShort = {};
-    episodes.forEach(ep => {
-      if (ep.shortId) {
-        idToShort[ep.id] = ep.shortId;
+  // Save State – long press: confirm and reload
+  document.getElementById('saveStateBtn').addEventListener('mousedown', () => {
+    saveHoldTriggered = false;
+    saveHoldTimeout = setTimeout(() => {
+      saveHoldTriggered = true;
+      if (confirm("Clear list?")) {
+        window.location.href = window.location.pathname;
       }
-    });
+    }, 1000);
+  });
+  document.getElementById('saveStateBtn').addEventListener('mouseup', () => {
+    clearTimeout(saveHoldTimeout);
+  });
+  document.getElementById('saveStateBtn').addEventListener('mouseleave', () => {
+    clearTimeout(saveHoldTimeout);
+  });
   
-    // Convert playlist episodes to short IDs or fallback to full
-    const encodedEpisodes = playlistEpisodes.map(id => {
-      return idToShort[id] || id;
-    }).join('.');
+  // Share – short press: copy short ID URL
+  document.getElementById('shareBtn').addEventListener('click', () => {
+    if (shareHoldTriggered) return;
+    const url = window.location.origin + window.location.pathname + buildPlaylistURL(true);
+    navigator.clipboard.writeText(url)
+      .then(() => showPopup('Share link copied!'))
+      .catch(() => showPopup('Failed to copy!'));
+  });
   
-    const params = new URLSearchParams({
-      n: name,
-      i: image,
-      e: encodedEpisodes
-    });
-  
-    window.location.href = `?${params.toString()}`;
+  // Share – long press: copy full ID URL
+  document.getElementById('shareBtn').addEventListener('mousedown', () => {
+    shareHoldTriggered = false;
+    shareHoldTimeout = setTimeout(() => {
+      shareHoldTriggered = true;
+      const url = window.location.origin + window.location.pathname + buildPlaylistURL(false);
+      navigator.clipboard.writeText(url)
+        .then(() => showPopup('Full-ID link copied!'))
+        .catch(() => showPopup('Failed to copy!'));
+    }, 1000);
+  });
+  document.getElementById('shareBtn').addEventListener('mouseup', () => {
+    clearTimeout(shareHoldTimeout);
+  });
+  document.getElementById('shareBtn').addEventListener('mouseleave', () => {
+    clearTimeout(shareHoldTimeout);
   });
   
   // Image URL validation
@@ -275,12 +337,17 @@ function updateSelectedEpisodesDisplay() {
     div.appendChild(moveGroup);
 
     // ➕ Episode name/link
+    const episodeContainer = document.createElement('div');
+    episodeContainer.className = 'episode-name';
+
     const episodeLink = document.createElement('a');
-    episodeLink.className = 'episode-name';
     episodeLink.href = `https://app.adventuresinodyssey.com/content/${epId}`;
     episodeLink.target = '_blank';
     episodeLink.textContent = displayName;
-    div.appendChild(episodeLink);
+    episodeLink.style.textDecoration = 'none';
+
+    episodeContainer.appendChild(episodeLink);
+    div.appendChild(episodeContainer);
 
     // ➕ Right-side buttons (copy name, URL, remove)
     const buttonGroup = document.createElement('div');
@@ -326,10 +393,16 @@ function updateSelectedEpisodesDisplay() {
   header.style.display = 'none';
   }
 
+  const actions = document.getElementById('playlistActions');
+  if (playlistEpisodes.length > 0) {
+    actions.style.display = 'inline-block';
+  } else {
+    actions.style.display = 'none';
+  }
+
   updatePlaylistPreview();
   document.getElementById('playlistName').addEventListener('input', updatePlaylistPreview);
   document.getElementById('playlistImageURL').addEventListener('input', updatePlaylistPreview);
-
 }
 
 function updatePlaylistPreview() {
@@ -500,6 +573,19 @@ function copyEpisodeIds() {
     .catch(() => showPopup('Failed to copy IDs!'));
 }
 
+function sortPlaylist(ascending = true) {
+  const episodeOrder = episodes.map(ep => ep.id);
+  playlistEpisodes.sort((a, b) => {
+    const indexA = episodeOrder.indexOf(a);
+    const indexB = episodeOrder.indexOf(b);
+    if (indexA === -1 && indexB === -1) return 0;
+    if (indexA === -1) return 1;
+    if (indexB === -1) return -1;
+    return ascending ? indexA - indexB : indexB - indexA;
+  });
+  updateSelectedEpisodesDisplay();
+}
+
 function handleFileImport(e) {
   const file = e.target.files[0];
   if (!file) return;
@@ -564,6 +650,30 @@ function showPopup(message) {
   setTimeout(() => {
     popup.style.display = 'none';
   }, 2000);
+}
+
+function buildPlaylistURL(useShortIds = true) {
+  const name = document.getElementById('playlistName').value.trim();
+  const image = document.getElementById('playlistImageURL').value.trim();
+
+  const idToShort = {};
+  episodes.forEach(ep => {
+    if (ep.shortId) {
+      idToShort[ep.id] = ep.shortId;
+    }
+  });
+
+  const episodeList = playlistEpisodes.map(id => {
+    return useShortIds && idToShort[id] ? idToShort[id] : id;
+  }).join('.');
+
+  const params = new URLSearchParams({
+    n: name,
+    i: image,
+    e: episodeList
+  });
+
+  return `?${params.toString()}`;
 }
 
 // Global event handlers

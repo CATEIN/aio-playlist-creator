@@ -7,15 +7,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-</div>
 <body>
-  <button id="backButton" onclick="window.location.href='https://adventuresinodyssey.fans/'">
-    Back to Main Page
-  </button>
   <button id="modifyPlaylistButton">Modify Playlist</button>
-  <button id="images" onclick="window.open('https://adventuresinodyssey.fans/Images', '_blank')">
-    Images
-  </button>
+  <a id="extensionButton" href="https://github.com/CATEIN/aio-playlist-import-exporter" target="_blank">AiO Playlist Import & Export</a>
+  <a id="versionTag" href="https://github.com/CATEIN/aio-playlist-creator" target="_blank">v4.0.0</a>
   <!-- Hidden file input for modifying a playlist -->
   <input type="file" id="modifyFile" accept=".aiopl,.json,.txt">
   
@@ -40,28 +35,36 @@
   <div id="playlistInfo">
     <input type="text" id="playlistName" placeholder="Playlist Name">
     <input type="text" id="playlistImageURL" placeholder="Playlist Image URL">
-    <button id="saveStateBtn">Save State</button>
+    <div id="playlistActions" style="display: none;">
+      <button id="saveStateBtn">Save State</button>
+      <button id="shareBtn">Share</button>
+    </div>
   </div>
   
   <!-- Search Area -->
   <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search for episodes (up to #1008) or paste an episode link">
+    <input type="text" id="searchInput" placeholder="Search for episodes (Loading episodes...) or paste an episode link">
   </div>
   
   <!-- Selected Episodes -->
-  <div id="selectedEpisodesSection">
-    <div id="selectedEpisodesHeader" style="display: none;">
+<div id="selectedEpisodesSection">
+  <div id="selectedEpisodesHeader" style="display: none; flex-direction: column; align-items: center;">
+    <div class="header-top-row">
       <h3>Selected Episodes</h3>
+      <button id="sortAscBtn">Sort Ascending</button>
+      <button id="sortDescBtn">Sort Descending</button>
+    </div>
+    <div class="header-copy-row">
       <button id="copyNamesBtn">Copy Names</button>
       <button id="copyInlineLinksBtn">Copy Inline Links</button>
       <button id="copyUrlsBtn">Copy Links</button>
       <button id="copyIdsBtn">Copy IDs</button>
     </div>
-    <div id="selectedEpisodesContainer">
-      <!-- Each selected episode will be displayed here -->
-    </div>
   </div>
-  
+  <div id="selectedEpisodesContainer">
+    <!-- Each selected episode will be displayed here -->
+  </div>
+</div>
   
   <!-- Results Container -->
   <div class="results-container" id="resultsContainer">
