@@ -4,4 +4,4 @@
 
 A web tool for creating and modifying AiO playlists. Best used with my [playlist import/export extension](https://github.com/CATEIN/aio-playlist-import-exporter)
 
-currently in development, use https://adventuresinodyssey.fans/playlistcreator/ for now.
+
