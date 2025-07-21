@@ -2,6 +2,8 @@
 let episodes = [];
 let playlistEpisodes = [];
 let undoStack = [];
+let redoStack = [];
+const MAX_UNDO = 10;
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
@@ -80,7 +82,7 @@ function loadFromURL() {
   // Add unknown episodes to master list if needed
   playlistEpisodes.forEach(id => {
     if (!episodes.find(ep => ep.id === id)) {
-      episodes.push({ id, name: 'Unknown Episode' });
+      episodes.push({ id, name: '⚠️ Corrupted Episode'});
     }
   });
 
@@ -114,10 +116,56 @@ function setupEventListeners() {
   document.getElementById('searchInput').addEventListener('input', handleSearchInput);
   
   // Playlist management
-  document.getElementById('playlistName').addEventListener('input', updatePlaylistPreview);
-  document.getElementById('playlistImageURL').addEventListener('input', updatePlaylistPreview);
+  let nameBeforeEdit = "";
+  let imageBeforeEdit = "";
+  
+  const nameInput = document.getElementById('playlistName');
+  const imageInput = document.getElementById('playlistImageURL');
+  
+  // When user focuses the name input, store the initial value
+  nameInput.addEventListener('focus', () => {
+    nameBeforeEdit = nameInput.value;
+  });
+  
+  nameInput.addEventListener('blur', () => {
+    if (nameInput.value !== nameBeforeEdit) {
+      saveUndoState();
+      updatePlaylistPreview();
+    }
+  });
+  
+  // Same for image input
+  imageInput.addEventListener('focus', () => {
+    imageBeforeEdit = imageInput.value;
+  });
+  
+  imageInput.addEventListener('blur', () => {
+    if (imageInput.value !== imageBeforeEdit) {
+      saveUndoState();
+      updatePlaylistPreview();
+    }
+  });
   document.getElementById('previewCopyBtn').addEventListener('click', copyPlaylist);
-  document.getElementById('previewDownloadBtn').addEventListener('click', downloadPlaylist);
+  let downloadHoldTimeout = null;
+  let downloadHoldTriggered = false;
+  
+  const downloadBtn = document.getElementById('previewDownloadBtn');
+  
+  downloadBtn.addEventListener('click', () => {
+    if (downloadHoldTriggered) return; // skip if long-press already handled
+    downloadPlaylist();
+  });
+  
+  downloadBtn.addEventListener('mousedown', () => {
+    downloadHoldTriggered = false;
+    downloadHoldTimeout = setTimeout(() => {
+      downloadHoldTriggered = true;
+      copyPlaylistJSONToClipboard();
+    }, 1000); // 1 second hold
+  });
+  
+  downloadBtn.addEventListener('mouseup', () => clearTimeout(downloadHoldTimeout));
+  downloadBtn.addEventListener('mouseleave', () => clearTimeout(downloadHoldTimeout));
   document.getElementById('copyNamesBtn').addEventListener('click', copyEpisodeNames);
   document.getElementById('copyInlineLinksBtn').addEventListener('click', copyInlineLinks);
   document.getElementById('copyUrlsBtn').addEventListener('click', copyLinks);
@@ -144,6 +192,12 @@ function setupEventListeners() {
       e.preventDefault();
       downloadPlaylist();
     }
+  });
+  document.getElementById('toggleHeaderButtons').addEventListener('click', () => {
+    const header = document.getElementById('selectedEpisodesHeader');
+    const toggleBtn = document.getElementById('toggleHeaderButtons');
+    header.classList.toggle('show-advanced');
+    toggleBtn.classList.toggle('expanded');
   });
 
   let saveHoldTimeout = null;
@@ -181,8 +235,11 @@ function setupEventListeners() {
     if (shareHoldTriggered) return;
     const url = window.location.origin + window.location.pathname + buildPlaylistURL(true);
     navigator.clipboard.writeText(url)
-      .then(() => showPopup('Share link copied!'))
-      .catch(() => showPopup('Failed to copy!'));
+  .then(() => {
+    showPopup('Share link copied!');
+    confetti(); // 🎉💥
+  })
+  .catch(() => showPopup('Failed to copy!'));
   });
   
   // Share – long press: copy full ID URL
@@ -217,6 +274,13 @@ function setupEventListeners() {
 function handleSearchInput(e) {
   const query = e.target.value.trim();
   const urlPrefix = "https://app.adventuresinodyssey.com/content/";
+
+  const container = document.getElementById('selectedEpisodesContainer');
+  if (query === "") {
+    container.classList.add('expanded');
+  } else {
+    container.classList.remove('expanded');
+  }
   
   if (query.startsWith(urlPrefix)) {
     const episodeId = query.slice(urlPrefix.length).split(/[/?\s]/)[0];
@@ -226,6 +290,7 @@ function handleSearchInput(e) {
         return;
       }
     }
+    saveUndoState();
     playlistEpisodes.push(episodeId);
     if (!episodes.find(ep => ep.id === episodeId)) {
       episodes.push({ id: episodeId, name: "Unknown Episode" });
@@ -236,8 +301,12 @@ function handleSearchInput(e) {
     return;
   }
   
-  const matches = findMatches(query);
-  displayResults(matches);
+  if (query === "") {
+    document.getElementById('resultsContainer').innerHTML = "";
+  } else {
+    const matches = findMatches(query);
+    displayResults(matches);
+  }
 }
 
 function findMatches(query) {
@@ -277,8 +346,20 @@ function displayResults(matchList) {
       return;
     }
   }
+  saveUndoState();
   playlistEpisodes.push(episode.id);
   updateSelectedEpisodesDisplay();
+  addButton.classList.add('bounce');
+  setTimeout(() => addButton.classList.remove('bounce'), 300);
+  
+  setTimeout(() => {
+    const container = document.getElementById('selectedEpisodesContainer');
+    const last = container.lastElementChild;
+    if (last) {
+      last.classList.add('flash');
+      setTimeout(() => last.classList.remove('flash'), 1000);
+    }
+  }, 10);
 });
 resultDiv.appendChild(addButton);
     
@@ -377,6 +458,7 @@ function updateSelectedEpisodesDisplay() {
     removeBtn.textContent = '✕';
     removeBtn.title = 'Remove episode';
     removeBtn.addEventListener('click', () => {
+      saveUndoState();
       playlistEpisodes.splice(index, 1);
       updateSelectedEpisodesDisplay();
     });
@@ -400,6 +482,15 @@ function updateSelectedEpisodesDisplay() {
     actions.style.display = 'none';
   }
 
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput && container) {
+    if (searchInput.value.trim() === "") {
+      container.classList.add('expanded');
+    } else {
+      container.classList.remove('expanded');
+    }
+  }
+
   updatePlaylistPreview();
   document.getElementById('playlistName').addEventListener('input', updatePlaylistPreview);
   document.getElementById('playlistImageURL').addEventListener('input', updatePlaylistPreview);
@@ -420,7 +511,7 @@ function updatePlaylistPreview() {
     return;
   }
 
-  previewImage.src = imageURL || 'https://via.placeholder.com/120x90?text=No+Image';
+  previewImage.src = imageURL || 'https://placeholdit.com/120x90/0082c6/ffffff?text=No+image&font=montserrat';
   previewName.innerHTML = `<strong>${name || '(Unnamed)'}</strong>`;
   previewCount.textContent = count;
   preview.style.display = 'flex';
@@ -460,6 +551,7 @@ function setupDragAndDrop(div, index) {
     const draggedIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
     const targetIndex = index;
     if (isNaN(draggedIndex) || draggedIndex === targetIndex) return;
+    saveUndoState();
     const [draggedItem] = playlistEpisodes.splice(draggedIndex, 1);
     playlistEpisodes.splice(targetIndex, 0, draggedItem);
     updateSelectedEpisodesDisplay();
@@ -482,6 +574,37 @@ function copyPlaylist() {
       showPopup('Failed to copy!');
       console.error('Error copying playlist data:', err);
     });
+}
+
+function copyPlaylistJSONToClipboard() {
+  const name = document.getElementById('playlistName').value.trim();
+  const imageURL = document.getElementById('playlistImageURL').value.trim();
+
+  // Build fullId → shortId map
+  const idToShort = {};
+  episodes.forEach(ep => {
+    if (ep.shortId) {
+      idToShort[ep.id] = ep.shortId;
+    }
+  });
+
+  const shortIds = playlistEpisodes.map(id => idToShort[id] || id);
+
+  const jsonTemplate = {
+    id: "",
+    name: name || "Unnamed Playlist",
+    imageURL: imageURL || "https://example.com/placeholder.jpg",
+    createdby: "",
+    creatorlink: "",
+    category: "",
+    episodes: shortIds
+  };
+
+  const jsonStr = JSON.stringify(jsonTemplate, null, 2);
+
+  navigator.clipboard.writeText(jsonStr)
+    .then(() => showPopup("Playlist JSON copied to clipboard!"))
+    .catch(() => showPopup("Failed to copy playlist JSON."));
 }
 
 function downloadPlaylist() {
@@ -731,6 +854,7 @@ function handleGlobalPaste(e) {
       const episodeId = match[2];
       
       if (!playlistEpisodes.includes(episodeId)) {
+        saveUndoState();
         playlistEpisodes.push(episodeId);
       }
       
@@ -758,6 +882,7 @@ function handleGlobalPaste(e) {
       );
       
       if (exactMatch && !playlistEpisodes.includes(exactMatch.id)) {
+        saveUndoState();
         playlistEpisodes.push(exactMatch.id);
         addedCount++;
       }
@@ -776,15 +901,53 @@ function handleGlobalKeydown(e) {
   if (activeTag === 'input' || activeTag === 'textarea') return;
 
   if ((e.ctrlKey || e.metaKey) && e.key === 'z') {
+    e.preventDefault();
     if (undoStack.length > 0) {
-      const prevState = undoStack.pop();
-      document.getElementById('playlistName').value = prevState.playlistName;
-      document.getElementById('playlistImageURL').value = prevState.playlistImageURL;
-      playlistEpisodes = prevState.playlistEpisodes;
+      const prev = undoStack.pop();
+      redoStack.push({
+        name: document.getElementById('playlistName').value,
+        image: document.getElementById('playlistImageURL').value,
+        episodes: [...playlistEpisodes]
+      });
+      document.getElementById('playlistName').value = prev.name;
+      document.getElementById('playlistImageURL').value = prev.image;
+      playlistEpisodes = [...prev.episodes];
       updateSelectedEpisodesDisplay();
-      showPopup("Undo successful!");
-      e.preventDefault();
+      showPopup("Undo!");
     }
+  }
+  
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'y') {
+    e.preventDefault();
+    if (redoStack.length > 0) {
+      const next = redoStack.pop();
+      undoStack.push({
+        name: document.getElementById('playlistName').value,
+        image: document.getElementById('playlistImageURL').value,
+        episodes: [...playlistEpisodes]
+      });
+      document.getElementById('playlistName').value = next.name;
+      document.getElementById('playlistImageURL').value = next.image;
+      playlistEpisodes = [...next.episodes];
+      updateSelectedEpisodesDisplay();
+      showPopup("Redo!");
+    }
+  }
+}
+
+function saveUndoState() {
+  redoStack = [];
+
+  const snapshot = {
+    name: document.getElementById('playlistName').value,
+    image: document.getElementById('playlistImageURL').value,
+    episodes: [...playlistEpisodes]
+  };
+
+  undoStack.push(snapshot);
+
+  if (undoStack.length > MAX_UNDO) {
+    undoStack.shift();
   }
 }
 

@@ -7,9 +7,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 <body>
   <button id="modifyPlaylistButton">Modify Playlist</button>
   <a id="extensionButton" href="https://github.com/CATEIN/aio-playlist-import-exporter" target="_blank">AiO Playlist Import & Export</a>
+  <a id="communityButton" href="https://catein.github.io/aio-playlist-creator/community" target="_blank">Community Playlists</a>
   <a id="versionTag" href="https://github.com/CATEIN/aio-playlist-creator" target="_blank">v4.0.0</a>
   <!-- Hidden file input for modifying a playlist -->
   <input type="file" id="modifyFile" accept=".aiopl,.json,.txt">
@@ -47,24 +49,27 @@
   </div>
   
   <!-- Selected Episodes -->
-<div id="selectedEpisodesSection">
-  <div id="selectedEpisodesHeader" style="display: none; flex-direction: column; align-items: center;">
-    <div class="header-top-row">
-      <h3>Selected Episodes</h3>
-      <button id="sortAscBtn">Sort Ascending</button>
-      <button id="sortDescBtn">Sort Descending</button>
+  <div id="selectedEpisodesSection">
+    <div id="selectedEpisodesHeader" style="display: none; flex-direction: column; align-items: center;">
+      <div class="header-title-toggle">
+        <h3>Selected Episodes</h3>
+        <button id="toggleHeaderButtons" title="Show/hide buttons">▼</button>
+      </div>
+      <div class="header-top-row">
+        <button id="sortAscBtn">Sort Ascending</button>
+        <button id="sortDescBtn">Sort Descending</button>
+      </div>
+      <div class="header-copy-row">
+        <button id="copyNamesBtn">Copy Names</button>
+        <button id="copyInlineLinksBtn">Copy Inline Links</button>
+        <button id="copyUrlsBtn">Copy Links</button>
+        <button id="copyIdsBtn">Copy IDs</button>
+      </div>
     </div>
-    <div class="header-copy-row">
-      <button id="copyNamesBtn">Copy Names</button>
-      <button id="copyInlineLinksBtn">Copy Inline Links</button>
-      <button id="copyUrlsBtn">Copy Links</button>
-      <button id="copyIdsBtn">Copy IDs</button>
+    <div id="selectedEpisodesContainer">
+      <!-- Each selected episode will be displayed here -->
     </div>
   </div>
-  <div id="selectedEpisodesContainer">
-    <!-- Each selected episode will be displayed here -->
-  </div>
-</div>
   
   <!-- Results Container -->
   <div class="results-container" id="resultsContainer">
