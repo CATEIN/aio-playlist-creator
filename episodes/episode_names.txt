@@ -1148,7 +1148,9 @@ iu	a35Uh000000DL0DIAW	#1013a: BONUS! Shona’s original audition from 2012
 iv	a35Uh000000DKtlIAG	#1014: Just Another Day
 iw	a35Uh000000DKvNIAW	#1015: Two Steps Forward, Three Steps Back
 ix	a35Uh000000DKwzIAG	#1016: On the Edge, Part 1 of 2
+iU	a35Uh000000DKybIAG	#1017: On the Edge, Part 2 of 2
 iy	a35Uh000000AQajIAG	#1018: Keeping Score
+iV	a35Uh000000AQcLIAW	#1019: Put to the Test
 iz	a354W0000046UuhQAE	Whit's Visitor
 iA	a354W0000046UAaQAM	Dental Dilemma
 iB	a354W0000046UumQAE	The New Kid in Town
