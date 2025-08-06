@@ -341,6 +341,12 @@ h1 {
   margin-bottom: 0;
 }
 
+/* Hide individual copy buttons on each episode for mobile */
+.selected-episode .copy-name-btn,
+.selected-episode .copy-url-btn {
+  display: none;
+}
+
 .selected-episode .button-group {
   display: flex;
   gap: 6px;
@@ -478,9 +484,15 @@ h1 {
     padding: 10px 16px;
   }
 
-  /* Show desktop-only buttons on tablet+ */
+  /* Show desktop-only buttons */
   .desktop-only {
     display: block;
+  }
+
+  /* Show individual copy buttons on desktop */
+  .selected-episode .copy-name-btn,
+  .selected-episode .copy-url-btn {
+    display: inline-block;
   }
 
   .playlist-container {
@@ -540,9 +552,10 @@ h1 {
     display: none;
   }
 
-  /* Show desktop-only buttons */
-  .desktop-only {
-    display: block;
+  /* Show individual copy buttons on desktop */
+  .selected-episode .copy-name-btn,
+  .selected-episode .copy-url-btn {
+    display: inline-block;
   }
 
   /* Show move buttons on desktop */
