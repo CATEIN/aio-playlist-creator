@@ -57,6 +57,24 @@ function getFullId(id) {
   return fullIdMap[id] || id;
 }
 
+function formatDate(dateString) {
+  if (!dateString) return '';
+  
+  try {
+    const date = new Date(dateString);
+    // Check if date is valid
+    if (isNaN(date.getTime())) return dateString;
+    
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  } catch (error) {
+    return dateString;
+  }
+}
+
 function groupPlaylistsByCategory(playlists) {
   const categories = {};
   playlists.forEach(playlist => {
@@ -90,6 +108,16 @@ function createPlaylistElement(playlist) {
     createdByPara.innerHTML = `<bold>Created by:</bold> ${playlist.createdby}`;
   }
   details.appendChild(createdByPara);
+
+  // Add last updated date if available
+  if (playlist.lastupdated) {
+    const lastUpdatedPara = document.createElement('p');
+    const formattedDate = formatDate(playlist.lastupdated);
+    lastUpdatedPara.innerHTML = `<bold>Last updated:</bold> ${formattedDate}`;
+    lastUpdatedPara.style.fontSize = '0.95em';
+    lastUpdatedPara.style.opacity = '0.9';
+    details.appendChild(lastUpdatedPara);
+  }
 
   const episodesPara = document.createElement('p');
   episodesPara.style.position = 'relative';
@@ -284,7 +312,7 @@ async function loadAllPlaylists() {
     const categorized = groupPlaylistsByCategory(playlists);
     const container = document.getElementById("playlist-categories");
 
-    const categoryOrder = ['Characters & Arcs', 'Themes/Morals', 'Personal Favorites', 'Other'];
+    const categoryOrder = ['Characters & Arcs', 'Themes', 'Personal Favorites', 'Other'];
     categoryOrder.forEach(category => {
       if (categorized[category]) {
         container.appendChild(createCategorySection(category, categorized[category]));
@@ -313,5 +341,146 @@ document.addEventListener('click', function (event) {
   }
 });
 
+function getUrlParameter(name) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(name);
+}
+
+async function loadSinglePlaylist(playlistId) {
+  await loadEpisodes();
+  try {
+    const response = await fetch("playlists.json");
+    if (!response.ok) throw new Error("Could not load playlist data");
+
+    const playlists = await response.json();
+    const playlist = playlists.find(p => p.id == playlistId);
+    
+    if (!playlist) {
+      const container = document.getElementById("playlist-categories");
+      container.innerHTML = `
+        <div class="category-section">
+          <h2>Playlist Not Found</h2>
+          <p>No playlist found with ID: ${playlistId}</p>
+          <p><a href="?" style="color: #f9d71c; text-decoration: underline;">← Back to all playlists</a></p>
+        </div>
+      `;
+      return;
+    }
+
+    // Update page title
+    document.title = `${playlist.name} - AIO Community Playlists`;
+    
+    // Update main heading
+    const mainHeading = document.querySelector('h1');
+    if (mainHeading) {
+      mainHeading.innerHTML = `${playlist.name} <a href="?" style="font-size: 0.5em; color: #f9d71c; text-decoration: underline; margin-left: 20px;">← Back to all playlists</a>`;
+    }
+
+    const container = document.getElementById("playlist-categories");
+    container.appendChild(createPlaylistElement(playlist));
+
+  } catch (err) {
+    console.error("Error loading playlist:", err);
+    const container = document.getElementById("playlist-categories");
+    container.innerHTML = `
+      <div class="category-section">
+        <h2>Error</h2>
+        <p>Failed to load playlist data.</p>
+        <p><a href="?" style="color: #f9d71c; text-decoration: underline;">← Back to all playlists</a></p>
+      </div>
+    `;
+  }
+}
+
+async function loadPlaylistsByCreator(creatorName) {
+  await loadEpisodes();
+  try {
+    const response = await fetch("playlists.json");
+    if (!response.ok) throw new Error("Could not load playlist data");
+
+    const playlists = await response.json();
+    const creatorPlaylists = playlists.filter(p => 
+      p.createdby && p.createdby.toLowerCase() === creatorName.toLowerCase()
+    );
+    
+    if (creatorPlaylists.length === 0) {
+      const container = document.getElementById("playlist-categories");
+      container.innerHTML = `
+        <div class="category-section">
+          <h2>Creator Not Found</h2>
+          <p>No playlists found by creator: ${creatorName}</p>
+          <p><a href="?" style="color: #f9d71c; text-decoration: underline;">← Back to all playlists</a></p>
+        </div>
+      `;
+      return;
+    }
+
+    // Update page title
+    document.title = `${creatorName}'s Playlists - AIO Community Playlists`;
+    
+    // Update main heading
+    const mainHeading = document.querySelector('h1');
+    if (mainHeading) {
+      mainHeading.innerHTML = `${creatorName}'s Playlists <a href="?" style="font-size: 0.5em; color: #f9d71c; text-decoration: underline; margin-left: 20px;">← Back to all playlists</a>`;
+    }
+
+    const container = document.getElementById("playlist-categories");
+    
+    // Group by category for this creator
+    const categorized = groupPlaylistsByCategory(creatorPlaylists);
+    
+    const categoryOrder = ['Characters & Arcs', 'Themes', 'Personal Favorites', 'Other'];
+    categoryOrder.forEach(category => {
+      if (categorized[category]) {
+        container.appendChild(createCategorySection(category, categorized[category]));
+        delete categorized[category];
+      }
+    });
+
+    // Add any remaining categories
+    for (const [category, group] of Object.entries(categorized)) {
+      container.appendChild(createCategorySection(category, group));
+    }
+
+    // Add creator info at the top
+    const creatorInfo = document.createElement('div');
+    creatorInfo.style.textAlign = 'center';
+    creatorInfo.style.marginBottom = '30px';
+    creatorInfo.style.padding = '20px';
+    creatorInfo.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+    creatorInfo.style.borderRadius = '10px';
+    creatorInfo.innerHTML = `
+      <p style="font-size: 1.2em; margin: 0;">
+        Showing ${creatorPlaylists.length} playlist${creatorPlaylists.length !== 1 ? 's' : ''} by <strong>${creatorName}</strong>
+      </p>
+    `;
+    container.insertBefore(creatorInfo, container.firstChild);
+
+  } catch (err) {
+    console.error("Error loading creator playlists:", err);
+    const container = document.getElementById("playlist-categories");
+    container.innerHTML = `
+      <div class="category-section">
+        <h2>Error</h2>
+        <p>Failed to load playlist data.</p>
+        <p><a href="?" style="color: #f9d71c; text-decoration: underline;">← Back to all playlists</a></p>
+      </div>
+    `;
+  }
+}
+
+function initializePage() {
+  const playlistId = getUrlParameter('playlist');
+  const creatorName = getUrlParameter('creator');
+  
+  if (playlistId) {
+    loadSinglePlaylist(playlistId);
+  } else if (creatorName) {
+    loadPlaylistsByCreator(creatorName);
+  } else {
+    loadAllPlaylists();
+  }
+}
+
 // Initialize the page
-loadAllPlaylists();
+initializePage();
