@@ -564,7 +564,7 @@ body {
     max-width: 325px;
     max-height: 175px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    flex-wrap: revert;
+    flex-wrap: nowrap;
   }
 
   .search-container {
@@ -586,6 +586,10 @@ body {
     cursor: pointer;
     transition: background-color 0.2s;
     text-decoration: none;
+  }
+
+  #playlistInfo input {
+    width: 30%;
   }
 
 }
