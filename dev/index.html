@@ -10,14 +10,12 @@
 </head>
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 <body>
-  <div class="header-buttons">
-    <a id="communityButton" href="https://catein.github.io/aio-playlist-creator/community" target="_blank">Community</a>
-    <button id="modifyPlaylistButton">Modify Playlist</button>
-    <a id="extensionButton" href="https://github.com/CATEIN/aio-playlist-import-exporter" target="_blank">Extension</a>
-  </div>
-  
+  <div id="topNav">
+  <button id="modifyPlaylistButton">Modify Playlist</button>
+  <a id="communityButton" href="https://catein.github.io/aio-playlist-creator/community" target="_blank">Community Playlists</a>
+  <a id="extensionButton" href="https://github.com/CATEIN/aio-playlist-import-exporter" target="_blank">AiO Playlist Import & Export</a>
   <a id="versionTag" href="https://github.com/CATEIN/aio-playlist-creator" target="_blank">v5.0.0</a>
-  
+</div>
   <!-- Hidden file input for modifying a playlist -->
   <input type="file" id="modifyFile" accept=".aiopl,.json,.txt">
   
@@ -26,7 +24,7 @@
   <div id="playlistPreview" class="playlist-container" style="display: none;">
     <img id="playlistPreviewImage" src="" alt="Playlist Image">
   
-    <div class="playlist-details">
+    <div class="playlist-details" style="flex: 1; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
       <div>
         <p id="playlistPreviewName"></p>
         <p><strong>Episodes:</strong> <span id="playlistPreviewCount">0</span></p>
