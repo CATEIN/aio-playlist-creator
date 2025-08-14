@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Playlist Creator</title>
   <!-- Include Montserrat font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -9,10 +10,12 @@
 </head>
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 <body>
+  <div id="topNav">
   <button id="modifyPlaylistButton">Modify Playlist</button>
-  <a id="extensionButton" href="https://github.com/CATEIN/aio-playlist-import-exporter" target="_blank">AiO Playlist Import & Export</a>
   <a id="communityButton" href="https://catein.github.io/aio-playlist-creator/community" target="_blank">Community Playlists</a>
+  <a id="extensionButton" href="https://github.com/CATEIN/aio-playlist-import-exporter" target="_blank">AiO Playlist Import & Export</a>
   <a id="versionTag" href="https://github.com/CATEIN/aio-playlist-creator" target="_blank">v5.0.0</a>
+</div>
   <!-- Hidden file input for modifying a playlist -->
   <input type="file" id="modifyFile" accept=".aiopl,.json,.txt">
   

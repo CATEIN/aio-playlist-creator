@@ -193,12 +193,15 @@ function setupEventListeners() {
       downloadPlaylist();
     }
   });
-  document.getElementById('toggleHeaderButtons').addEventListener('click', () => {
-    const header = document.getElementById('selectedEpisodesHeader');
-    const toggleBtn = document.getElementById('toggleHeaderButtons');
-    header.classList.toggle('show-advanced');
-    toggleBtn.classList.toggle('expanded');
-  });
+  const toggleHeader = () => {
+  const header = document.getElementById('selectedEpisodesHeader');
+  const toggleBtn = document.getElementById('toggleHeaderButtons');
+  header.classList.toggle('show-advanced');
+  toggleBtn.classList.toggle('expanded');
+};
+
+document.getElementById('toggleHeaderButtons').addEventListener('click', toggleHeader);
+document.querySelector('#selectedEpisodesHeader h3').addEventListener('click', toggleHeader);
 
   let saveHoldTimeout = null;
   let saveHoldTriggered = false;
@@ -335,34 +338,81 @@ function displayResults(matchList) {
     episodeLink.target = '_blank';
     episodeLink.textContent = episode.name;
     resultDiv.appendChild(episodeLink);
-    
+
+    // Create button group container
+    const buttonGroup = document.createElement('div');
+    buttonGroup.style.display = 'flex';
+    buttonGroup.style.gap = '10px';
+    buttonGroup.style.alignItems = 'center';
+
+    // Copy dropdown
+    const dropdown = document.createElement('div');
+    dropdown.className = 'dropdown';
+
+    const copyBtn = document.createElement('button');
+    copyBtn.textContent = 'Copy';
+    copyBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = dropdown.classList.contains('open');
+      closeAllDropdowns();
+      if (!isOpen) {
+        dropdown.classList.add('open');
+      }
+    });
+
+    const dropdownMenu = document.createElement('div');
+    dropdownMenu.className = 'dropdown-menu';
+
+    const addCopyOption = (label, getTextFn, successMsg) => {
+      const option = document.createElement('button');
+      option.textContent = label;
+      option.addEventListener('click', () => {
+        navigator.clipboard.writeText(getTextFn())
+          .then(() => showPopup(successMsg))
+          .catch(() => showPopup(`Failed to copy ${label.toLowerCase()}!`));
+        dropdown.classList.remove('open');
+      });
+      dropdownMenu.appendChild(option);
+    };
+
+    addCopyOption('Name', () => episode.name, 'Episode name copied!');
+    addCopyOption('URL', () => `https://app.adventuresinodyssey.com/content/${episode.id}`, 'Episode URL copied!');
+    addCopyOption('Inline link', () => `[${episode.name}](https://app.adventuresinodyssey.com/content/${episode.id})`, 'Inline link copied!');
+    addCopyOption('ID', () => episode.id, 'Episode ID copied!');
+    addCopyOption('Short ID', () => episode.shortId || '', 'Short ID copied!');
+
+    dropdown.appendChild(copyBtn);
+    dropdown.appendChild(dropdownMenu);
+    buttonGroup.appendChild(dropdown);
+
     const addButton = document.createElement('button');
-  addButton.className = 'add-btn';
-  addButton.textContent = '+';
-  addButton.title = 'Add to playlist';
-  addButton.addEventListener('click', () => {
-  if (playlistEpisodes.includes(episode.id)) {
-    if (!confirm("You have already added this episode to the playlist. Are you sure you want to add it again?")) {
-      return;
-    }
-  }
-  saveUndoState();
-  playlistEpisodes.push(episode.id);
-  updateSelectedEpisodesDisplay();
-  addButton.classList.add('bounce');
-  setTimeout(() => addButton.classList.remove('bounce'), 300);
-  
-  setTimeout(() => {
-    const container = document.getElementById('selectedEpisodesContainer');
-    const last = container.lastElementChild;
-    if (last) {
-      last.classList.add('flash');
-      setTimeout(() => last.classList.remove('flash'), 1000);
-    }
-  }, 10);
-});
-resultDiv.appendChild(addButton);
+    addButton.className = 'add-btn';
+    addButton.textContent = '+';
+    addButton.title = 'Add to playlist';
+    addButton.addEventListener('click', () => {
+      if (playlistEpisodes.includes(episode.id)) {
+        if (!confirm("You have already added this episode to the playlist. Are you sure you want to add it again?")) {
+          return;
+        }
+      }
+      saveUndoState();
+      playlistEpisodes.push(episode.id);
+      updateSelectedEpisodesDisplay();
+      addButton.classList.add('bounce');
+      setTimeout(() => addButton.classList.remove('bounce'), 300);
+      
+      setTimeout(() => {
+        const container = document.getElementById('selectedEpisodesContainer');
+        const last = container.lastElementChild;
+        if (last) {
+          last.classList.add('flash');
+          setTimeout(() => last.classList.remove('flash'), 1000);
+        }
+      }, 10);
+    });
+    buttonGroup.appendChild(addButton);
     
+    resultDiv.appendChild(buttonGroup);
     container.appendChild(resultDiv);
   });
 }
@@ -430,28 +480,53 @@ function updateSelectedEpisodesDisplay() {
     episodeContainer.appendChild(episodeLink);
     div.appendChild(episodeContainer);
 
-    // ➕ Right-side buttons (copy name, URL, remove)
     const buttonGroup = document.createElement('div');
     buttonGroup.className = 'button-group';
 
-    const copyNameBtn = document.createElement('button');
-    copyNameBtn.textContent = 'Copy Name';
-    copyNameBtn.addEventListener('click', () => {
-      navigator.clipboard.writeText(displayName)
-        .then(() => showPopup('Episode name copied!'))
-        .catch(() => showPopup('Failed to copy name!'));
-    });
-    buttonGroup.appendChild(copyNameBtn);
+    // Create dropdown container
+    const dropdown = document.createElement('div');
+    dropdown.className = 'dropdown';
 
-    const copyUrlBtn = document.createElement('button');
-    copyUrlBtn.textContent = 'Copy URL';
-    copyUrlBtn.addEventListener('click', () => {
-      const url = `https://app.adventuresinodyssey.com/content/${epId}`;
-      navigator.clipboard.writeText(url)
-        .then(() => showPopup('Episode URL copied!'))
-        .catch(() => showPopup('Failed to copy URL!'));
+    const copyBtn = document.createElement('button');
+    copyBtn.textContent = 'Copy';
+    copyBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = dropdown.classList.contains('open');
+    closeAllDropdowns(); // close all others
+    if (!isOpen) {
+      dropdown.classList.add('open'); // only open if it wasn't already
+    }
     });
-    buttonGroup.appendChild(copyUrlBtn);
+
+    const dropdownMenu = document.createElement('div');
+    dropdownMenu.className = 'dropdown-menu';
+
+    // Helper function to add an option
+    const addCopyOption = (label, getTextFn, successMsg) => {
+      const option = document.createElement('button');
+      option.textContent = label;
+      option.addEventListener('click', () => {
+        navigator.clipboard.writeText(getTextFn())
+          .then(() => showPopup(successMsg))
+          .catch(() => showPopup(`Failed to copy ${label.toLowerCase()}!`));
+        dropdown.classList.remove('open');
+      });
+      dropdownMenu.appendChild(option);
+    };
+
+    // Add all copy options
+    addCopyOption('Name', () => displayName, 'Episode name copied!');
+    addCopyOption('URL', () => `https://app.adventuresinodyssey.com/content/${epId}`, 'Episode URL copied!');
+    addCopyOption('Inline link', () => `[${displayName}](https://app.adventuresinodyssey.com/content/${epId})`, 'Inline link copied!');
+    addCopyOption('ID', () => epId, 'Episode ID copied!');
+    addCopyOption('Short ID', () => {
+      const ep = episodes.find(ep => ep.id === epId);
+      return ep && ep.shortId ? ep.shortId : '';
+    }, 'Short ID copied!');
+
+    dropdown.appendChild(copyBtn);
+    dropdown.appendChild(dropdownMenu);
+    buttonGroup.appendChild(dropdown);
 
     const removeBtn = document.createElement('button');
     removeBtn.className = 'remove-btn';
@@ -463,7 +538,6 @@ function updateSelectedEpisodesDisplay() {
       updateSelectedEpisodesDisplay();
     });
     buttonGroup.appendChild(removeBtn);
-
     div.appendChild(buttonGroup);
     container.appendChild(div);
   });
@@ -590,12 +664,16 @@ function copyPlaylistJSONToClipboard() {
 
   const shortIds = playlistEpisodes.map(id => idToShort[id] || id);
 
+  // Get current date in ISO format (YYYY-MM-DD)
+  const currentDate = new Date().toISOString().split('T')[0];
+
   const jsonTemplate = {
     id: "",
     name: name || "Unnamed Playlist",
     imageURL: imageURL || "https://example.com/placeholder.jpg",
     createdby: "",
     creatorlink: "",
+    lastupdated: currentDate,
     category: "",
     episodes: shortIds
   };
@@ -1013,3 +1091,11 @@ function handleFileDrop(e) {
     reader.readAsText(file);
   }
 }
+
+// Close all dropdowns
+function closeAllDropdowns() {
+  document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+}
+
+// Close dropdown on outside click
+document.addEventListener('click', () => closeAllDropdowns());
