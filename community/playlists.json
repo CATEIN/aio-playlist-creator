@@ -2695,7 +2695,7 @@
 {
   "id": "33",
   "name": "Barclay Family Episodes",
-  "imageURL": "https://example.com/placeholder.jpg",
+  "imageURL": "",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_Barclays.htm",
   "lastupdated": "2025-10-14",
@@ -2763,6 +2763,7 @@
 }
 
 ]
+
 
 
 
