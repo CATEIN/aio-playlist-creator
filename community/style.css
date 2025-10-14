@@ -17,7 +17,7 @@
 }
 
 #extensionButton {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   background-color: transparent;
