@@ -91,7 +91,7 @@ function createPlaylistElement(playlist) {
   container.className = 'playlist-container';
 
   const img = document.createElement('img');
-  img.src = playlist.imageURL;
+  img.src = playlist.imageURL || "https://placeholdit.com/120x90/0082c6/ffffff?text=No+image&font=montserrat";
   container.appendChild(img);
 
   const details = document.createElement('div');
@@ -133,6 +133,22 @@ function createPlaylistElement(playlist) {
   const episodeCount = document.createElement('div');
   episodeCount.className = 'episode-count';
   episodeCount.textContent = `${playlist.episodes.length} Episodes`;
+  
+  // Add warning image if over 200 episodes
+  if (playlist.episodes.length > 200) {
+    const warningImg = document.createElement('img');
+    warningImg.src = 'https://i.postimg.cc/nhpkBp81/genuinefear.png';
+    warningImg.style.width = '20px';
+    warningImg.style.height = '20px';
+    warningImg.style.marginLeft = '8px';
+    warningImg.style.verticalAlign = 'middle';
+    warningImg.style.cursor = 'help';
+    warningImg.style.border = 'none';
+    warningImg.style.borderRadius = '0';
+    warningImg.title = 'This playlist contains over 200 episodes, which is the soft limit for the club. Viewing or using this playlist on the club has performance issues.';
+    episodeCount.appendChild(warningImg);
+  }
+  
   episodesDropdown.appendChild(episodeCount);
 
   playlist.episodes.forEach(id => {
