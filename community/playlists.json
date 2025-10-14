@@ -2476,7 +2476,7 @@
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_mystery.htm",
   "lastupdated": "2025-10-14",
-  "category": "",
+  "category": "Themes",
   "episodes": [
     "0p",
     "0t",
@@ -2597,9 +2597,38 @@
     "fi",
     "fn"
   ]
+},
+{
+  "id": "31",
+  "name": "Washington Family Episodes",
+  "imageURL": "https://d23sy43gbewnpt.cloudfront.net/public/images/content/tin_flat_episode_thumbnail.jpg",
+  "createdby": "The Odyssey Scoop",
+  "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_Washingtons.htm",
+  "lastupdated": "2025-10-14",
+  "category": "Characters & Arcs",
+  "episodes": [
+    "9d",
+    "9r",
+    "9s",
+    "9B",
+    "9S",
+    "9T",
+    "9U",
+    "9Z",
+    "ay",
+    "aI",
+    "aW",
+    "b1",
+    "b3",
+    "b4",
+    "bh",
+    "bA",
+    "bF"
+  ]
 }
 
 ]
+
 
 
 
