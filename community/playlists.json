@@ -1977,7 +1977,7 @@
 {
   "id": "22",
   "name": "Storyteller Episodes",
-  "imageURL": "",
+  "imageURL": "https://www.odysseyscoop.com/images/logos/TheOdysseyScoop-Logo_trans_265x174.png",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_storyteller.htm",
   "lastupdated": "2025-10-13",
@@ -2190,7 +2190,7 @@
 {
   "id": "24",
   "name": "History Episodes",
-  "imageURL": "",
+  "imageURL": "https://www.odysseyscoop.com/images/logos/TheOdysseyScoop-Logo_trans_265x174.png",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_history.htm",
   "lastupdated": "2025-10-13",
@@ -2245,7 +2245,7 @@
 {
   "id": "25",
   "name": "Plays",
-  "imageURL": "",
+  "imageURL": "https://www.odysseyscoop.com/images/logos/TheOdysseyScoop-Logo_trans_265x174.png",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_Plays.htm",
   "lastupdated": "2025-10-13",
@@ -2315,7 +2315,7 @@
 {
   "id": "27",
   "name": "Vacation Episodes",
-  "imageURL": "",
+  "imageURL": "https://www.odysseyscoop.com/images/logos/TheOdysseyScoop-Logo_trans_265x174.png",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_vacations.htm",
   "lastupdated": "2025-10-13",
@@ -2418,7 +2418,7 @@
 {
   "id": "29",
   "name": "Holiday Episodes",
-  "imageURL": "",
+  "imageURL": "https://www.odysseyscoop.com/images/logos/TheOdysseyScoop-Logo_trans_265x174.png",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_holiday.htm",
   "lastupdated": "2025-10-13",
@@ -2695,7 +2695,7 @@
 {
   "id": "33",
   "name": "Barclay Family Episodes",
-  "imageURL": "",
+  "imageURL": "https://www.odysseyscoop.com/images/logos/TheOdysseyScoop-Logo_trans_265x174.png",
   "createdby": "The Odyssey Scoop",
   "creatorlink": "https://www.odysseyscoop.com/episodes/Episodes_Barclays.htm",
   "lastupdated": "2025-10-14",
@@ -2787,6 +2787,7 @@
 }
 
 ]
+
 
 
 
