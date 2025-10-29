@@ -182,6 +182,7 @@
 2V	a354W0000046U9RQAU	#143: Muckraker
 2W	a354W0000046Yh4QAE	#144: Someone to Watch Over Me
 2X	a354W0000046U2qQAE	#145: The Second Coming
+iW	a35Uh000000IBoDIAW	#145: The Second Coming
 2Y	a354W0000046U1JQAU	#146: Emotional Baggage
 2Z	a354W0000046U9bQAE	#147: Where There's a Will. . .
 30	a354W0000046U5fQAE	#148: Isaac the Procrastinator
@@ -1055,6 +1056,7 @@ gZ	a354W0000046UuNQAU	#930: Judge Me Tender
 h0	a354W0000046UuSQAU	#931: As Buck Would Have It, Part 1 of 3
 h1	a354W0000046UuXQAU	#932: As Buck Would Have It, Part 2 of 3
 h2	a354W0000046UucQAE	#933: As Buck Would Have It, Part 3 of 3
+iX	a354W0000046ZJDQA2	#933a: BONUS! Robby Bruce's original audition as Buck
 h3	a354W0000046ZJXQA2	#934: A Dickensian Dilemma
 h4	a354W0000046a1KQAQ	#935: In for a Penny
 h5	a354W0000046cd6QAA	#936: Drake and the Aberrant Automaton
@@ -1104,7 +1106,7 @@ hM	a354W000004SQewQAG	#975: Naughty or Nice
 hN	a35Uh0000000KWbIAM	#976: The Rydell Realizations, Part 1 of 3
 hO	a35Uh0000000KYDIA2	#977: The Rydell Realizations, Part 2 of 3
 hP	a35Uh0000000KZpIAM	#978: The Rydell Realizations, Part 3 of 3
-hQ	a35Uh00000018GTIAY	#978a: BONUS! The recording of "The Rydell Realizations"
+hQ	a35Uh00000018GTIAY	#978a: BONUS The recording of "The Rydell Realizations"
 hR	a35Uh0000000KpxIAE	#979: Right Notes, Wrong Key
 hS	a35Uh0000000Kl7IAE	#980: Making an Honest Buck, Part 1 of 2
 hT	a35Uh0000000KmjIAE	#981: Making an Honest Buck, Part 2 of 2
@@ -1151,6 +1153,8 @@ ix	a35Uh000000DKwzIAG	#1016: On the Edge, Part 1 of 2
 iU	a35Uh000000DKybIAG	#1017: On the Edge, Part 2 of 2
 iy	a35Uh000000AQajIAG	#1018: Keeping Score
 iV	a35Uh000000AQcLIAW	#1019: Put to the Test
+iY	a35Uh000000AQhBIAW	#1020: Aunt Vicki
+iZ	a35Uh000000AQdxIAG	#1021: Out of the Spotlight
 iz	a354W0000046UuhQAE	Whit's Visitor
 iA	a354W0000046UAaQAM	Dental Dilemma
 iB	a354W0000046UumQAE	The New Kid in Town
@@ -1172,3 +1176,4 @@ iQ	a354W0000046UwOQAU	In My Image
 iR	a354W0000046UwTQAU	Stepping Stones, Part 1 of 2
 iS	a354W0000046UwYQAU	Stepping Stones, Part 2 of 2
 iT	a354W0000046UwdQAE	The Final Call
+j0	a35Uh000000IXwnIAG	The Truth Chronicles Discussion Guide
