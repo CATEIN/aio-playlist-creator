@@ -1155,6 +1155,11 @@ iy	a35Uh000000AQajIAG	#1018: Keeping Score
 iV	a35Uh000000AQcLIAW	#1019: Put to the Test
 iY	a35Uh000000AQhBIAW	#1020: Aunt Vicki
 iZ	a35Uh000000AQdxIAG	#1021: Out of the Spotlight
+j1	a35Uh000000AQinIAG	#1022: Being Real
+j2	a35Uh000000AQkPIAW	#1023: The Smouse Family Christmas
+j3	a35Uh000000JktZIAS	#1024: Value of a Buck, Part 1 of 2
+j4	a35Uh000000JkvBIAS	#1025: Value of a Buck, Part 2 of 2
+j5	a35Uh000000JkwnIAC	#1026: Face the Future (Part 1 of 3)
 iz	a354W0000046UuhQAE	Whit's Visitor
 iA	a354W0000046UAaQAM	Dental Dilemma
 iB	a354W0000046UumQAE	The New Kid in Town
