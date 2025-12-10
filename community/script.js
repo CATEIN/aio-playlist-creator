@@ -75,6 +75,16 @@ function formatDate(dateString) {
   }
 }
 
+function sortByLastUpdated(a, b) {
+  const dateA = a.lastupdated ? new Date(a.lastupdated) : new Date(0); // Use epoch for missing dates
+  const dateB = b.lastupdated ? new Date(b.lastupdated) : new Date(0);
+  
+  // Sort in descending order (newest date first)
+  if (dateA > dateB) return -1;
+  if (dateA < dateB) return 1;
+  return 0;
+}
+
 function groupPlaylistsByCategory(playlists) {
   const categories = {};
   playlists.forEach(playlist => {
@@ -297,7 +307,9 @@ function createCategorySection(categoryName, playlists) {
   const content = document.createElement('div');
   content.className = 'category-content';
 
-  playlists.forEach(playlist => {
+  const sortedPlaylists = playlists.sort(sortByLastUpdated);
+  
+  sortedPlaylists.forEach(playlist => {
     content.appendChild(createPlaylistElement(playlist));
   });
 
