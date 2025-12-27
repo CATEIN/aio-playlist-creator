@@ -1160,6 +1160,10 @@ j2	a35Uh000000AQkPIAW	#1023: The Smouse Family Christmas
 j3	a35Uh000000JktZIAS	#1024: Value of a Buck, Part 1 of 2
 j4	a35Uh000000JkvBIAS	#1025: Value of a Buck, Part 2 of 2
 j5	a35Uh000000JkwnIAC	#1026: Face the Future (Part 1 of 3)
+j6	a35Uh000000JkyPIAS	#1027: Face the Unknown (Part 2 of 3)
+j7	a35Uh000000Jl01IAC	#1028: Face the Truth (Part 3 of 3)
+j8	a35Uh000000Jl1dIAC	#1029: This Is My Story
+j9	a35Uh000000Jl3FIAS	#1029a: BONUS! The adventures continue in the Club
 iz	a354W0000046UuhQAE	Whit's Visitor
 iA	a354W0000046UAaQAM	Dental Dilemma
 iB	a354W0000046UumQAE	The New Kid in Town
